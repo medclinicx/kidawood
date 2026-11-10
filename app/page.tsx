@@ -3,6 +3,36 @@ import ArticleCard from "@/components/ArticleCard";
 import { CATEGORIES } from "@/lib/articles";
 import { getArticles } from "@/lib/sanity";
 
+const MARKET_CHART_IMAGE =
+  "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80";
+const PLANNING_DESK_IMAGE =
+  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80";
+const WAREHOUSE_AISLE_IMAGE =
+  "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1200&q=80";
+const WAREHOUSE_WIDE_IMAGE =
+  "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80";
+const TAX_PAPERWORK_IMAGE =
+  "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80";
+
+const CATEGORY_IMAGES: Record<string, { src: string; alt: string }> = {
+  stocks: {
+    src: MARKET_CHART_IMAGE,
+    alt: "Stock market candlestick chart on a dark screen",
+  },
+  investing: {
+    src: PLANNING_DESK_IMAGE,
+    alt: "Two people at a desk with laptops, planning around a hand-drawn chart",
+  },
+  "stock-management": {
+    src: WAREHOUSE_WIDE_IMAGE,
+    alt: "Warehouse shelves lined with yellow picking bins of stock",
+  },
+  finance: {
+    src: TAX_PAPERWORK_IMAGE,
+    alt: "US tax forms on a desk with a phone used as a calculator",
+  },
+};
+
 export default async function HomePage() {
   const articles = await getArticles();
   const latest = articles.slice(0, 3);
@@ -10,26 +40,35 @@ export default async function HomePage() {
   return (
     <>
       <section className="hero">
-        <div className="wrap">
-          <h1>Stocks and stock management, explained in plain English</h1>
-          <p>
-            Kidawood is an information website for readers in the United States. We write about the
-            stock market, about investing topics such as short selling, and about the software
-            businesses use to manage physical stock and inventory.
-          </p>
-          <p>
-            The word stock covers both subjects, so the site keeps them in separate sections.
-            Market readers get company and investing guides. Business readers get inventory and
-            barcode software guides. Each article starts with the short answer, then shows the
-            reasoning and the sources behind it.
-          </p>
-          <div className="hero-links">
-            <Link href="/blog" className="button">
-              Read the latest articles
-            </Link>
-            <Link href="/about" className="button secondary">
-              About Kidawood
-            </Link>
+        <div className="wrap hero-layout">
+          <div className="hero-text">
+            <h1>Stocks and stock management, explained in plain English</h1>
+            <p>
+              Kidawood is an information website for readers in the United States. We write about
+              the stock market, about investing topics such as short selling, and about the
+              software businesses use to manage physical stock and inventory.
+            </p>
+            <p>
+              The word stock covers both subjects, so the site keeps them in separate sections.
+              Market readers get company and investing guides. Business readers get inventory and
+              barcode software guides. Each article starts with the short answer, then shows the
+              reasoning and the sources behind it.
+            </p>
+            <div className="hero-links">
+              <Link href="/blog" className="button">
+                Read the latest articles
+              </Link>
+              <Link href="/about" className="button secondary">
+                About Kidawood
+              </Link>
+            </div>
+          </div>
+          <div className="hero-media">
+            <img
+              src={MARKET_CHART_IMAGE}
+              alt="Stock market candlestick chart on a dark screen"
+              fetchPriority="high"
+            />
           </div>
         </div>
       </section>
@@ -43,26 +82,42 @@ export default async function HomePage() {
           </p>
           <div className="pillars">
             <div className="pillar">
-              <h3>The stock market</h3>
-              <p>
-                Is a company publicly traded, and what is its symbol. How investing works, from
-                margin accounts to short selling, with the risks written out in full rather than
-                added at the end.
-              </p>
-              <Link href="/stocks">Stock market articles</Link>
-              {" · "}
-              <Link href="/investing">Investing guides</Link>
+              <img
+                className="pillar-media"
+                src={PLANNING_DESK_IMAGE}
+                alt="Two people at a desk with laptops, planning around a hand-drawn chart"
+                loading="lazy"
+              />
+              <div className="pillar-body">
+                <h3>The stock market</h3>
+                <p>
+                  Is a company publicly traded, and what is its symbol. How investing works, from
+                  margin accounts to short selling, with the risks written out in full rather than
+                  added at the end.
+                </p>
+                <Link href="/stocks">Stock market articles</Link>
+                {" · "}
+                <Link href="/investing">Investing guides</Link>
+              </div>
             </div>
             <div className="pillar">
-              <h3>Stock management</h3>
-              <p>
-                The software and barcode systems that help a pharmacy, grocery store, shop or
-                warehouse count what it holds, find it quickly and reorder at the right time.
-                Written for owners and managers comparing tools.
-              </p>
-              <Link href="/stock-management">Stock management articles</Link>
-              {" · "}
-              <Link href="/finance">Finance and legal topics</Link>
+              <img
+                className="pillar-media"
+                src={WAREHOUSE_AISLE_IMAGE}
+                alt="Warehouse aisle with tall shelving holding wrapped stock"
+                loading="lazy"
+              />
+              <div className="pillar-body">
+                <h3>Stock management</h3>
+                <p>
+                  The software and barcode systems that help a pharmacy, grocery store, shop or
+                  warehouse count what it holds, find it quickly and reorder at the right time.
+                  Written for owners and managers comparing tools.
+                </p>
+                <Link href="/stock-management">Stock management articles</Link>
+                {" · "}
+                <Link href="/finance">Finance and legal topics</Link>
+              </div>
             </div>
           </div>
         </div>
@@ -75,10 +130,18 @@ export default async function HomePage() {
           <div className="category-cards">
             {CATEGORIES.map((category) => (
               <div className="category-card" key={category.slug}>
-                <h3>
-                  <Link href={category.path}>{category.name}</Link>
-                </h3>
-                <p>{category.tagline}</p>
+                <img
+                  className="category-card-media"
+                  src={CATEGORY_IMAGES[category.slug].src}
+                  alt={CATEGORY_IMAGES[category.slug].alt}
+                  loading="lazy"
+                />
+                <div className="category-card-body">
+                  <h3>
+                    <Link href={category.path}>{category.name}</Link>
+                  </h3>
+                  <p>{category.tagline}</p>
+                </div>
               </div>
             ))}
           </div>

@@ -2,8 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ArticleCard from "@/components/ArticleCard";
-import { FINANCE_CATEGORIES, formatDate, getCategory, publishedArticles } from "@/lib/articles";
-import { getArticle, getRelatedArticles } from "@/lib/sanity";
+import {
+  CATEGORIES,
+  FINANCE_CATEGORIES,
+  formatDate,
+  getCategory,
+  publishedArticles,
+} from "@/lib/articles";
+import { getArticle, getArticles, getRelatedArticles } from "@/lib/sanity";
 import { SITE_URL } from "@/lib/site";
 
 interface PageProps {
@@ -49,6 +55,7 @@ export default async function ArticlePage({ params }: PageProps) {
 
   const category = getCategory(article.category);
   const related = await getRelatedArticles(article);
+  const latest = (await getArticles()).filter((a) => a.slug !== article.slug).slice(0, 3);
   const showDisclaimer = FINANCE_CATEGORIES.includes(article.category);
 
   const articleSchema = {
@@ -97,8 +104,17 @@ export default async function ArticlePage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <div className="wrap">
-        <div className="article-column">
-          <header className="article-head">
+        <div className="article-layout">
+          <div className="article-column">
+            <nav className="breadcrumb" aria-label="Breadcrumb">
+              <Link href="/">Home</Link>
+              {" / "}
+              <Link href="/blog">Blog</Link>
+              {" / "}
+              <Link href={category.path}>{category.name}</Link>
+            </nav>
+
+            <header className="article-head">
             <h1>{article.title}</h1>
             <p className="article-meta">
               <Link href={category.path}>{category.name}</Link> · By the Kidawood Editorial Team ·{" "}
@@ -107,7 +123,21 @@ export default async function ArticlePage({ params }: PageProps) {
             </p>
           </header>
 
-          <p className="short-answer">{article.intro}</p>
+          <p className="short-answer">
+            <span className="short-answer-label">Short answer</span>
+            {article.intro}
+          </p>
+
+          {article.takeaways && article.takeaways.length > 0 && (
+            <div className="takeaways">
+              <h2>Key takeaways</h2>
+              <ul>
+                {article.takeaways.map((point) => (
+                  <li key={point}>{point}</li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -117,27 +147,6 @@ export default async function ArticlePage({ params }: PageProps) {
             width={1200}
             height={675}
           />
-
-          <nav className="contents" aria-label="Contents">
-            <h2>Contents</h2>
-            <ol>
-              {article.sections.map((section) => (
-                <li key={section.heading}>
-                  <a href={`#${anchorId(section.heading)}`}>{section.heading}</a>
-                </li>
-              ))}
-              {article.faqs.length > 0 && (
-                <li>
-                  <a href="#frequently-asked-questions">Frequently asked questions</a>
-                </li>
-              )}
-              {article.sources.length > 0 && (
-                <li>
-                  <a href="#sources">Sources and references</a>
-                </li>
-              )}
-            </ol>
-          </nav>
 
           <div className="prose">
             {article.sections.map((section) => (
@@ -206,6 +215,77 @@ export default async function ArticlePage({ params }: PageProps) {
               </p>
             </div>
           )}
+          </div>
+
+          <aside className="sidebar">
+            <nav className="side-card" aria-label="On this page">
+              <h2>On this page</h2>
+              <ol className="side-contents">
+                {article.sections.map((section) => (
+                  <li key={section.heading}>
+                    <a href={`#${anchorId(section.heading)}`}>{section.heading}</a>
+                  </li>
+                ))}
+                {article.faqs.length > 0 && (
+                  <li>
+                    <a href="#frequently-asked-questions">Frequently asked questions</a>
+                  </li>
+                )}
+                {article.sources.length > 0 && (
+                  <li>
+                    <a href="#sources">Sources and references</a>
+                  </li>
+                )}
+              </ol>
+            </nav>
+
+            {latest.length > 0 && (
+              <div className="side-card">
+                <h2>Latest articles</h2>
+                {latest.map((item) => (
+                  <div className="side-latest-item" key={item.slug}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={item.image} alt="" width={56} height={42} />
+                    <div>
+                      <Link href={`/blog/${item.slug}`}>{item.title}</Link>
+                      <span className="side-latest-date">{formatDate(item.publishedAt)}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div className="side-card">
+              <h2>Browse sections</h2>
+              <ul className="side-sections">
+                {CATEGORIES.map((c) => (
+                  <li key={c.slug}>
+                    <Link href={c.path}>{c.name}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="side-card">
+              <h2>About Kidawood</h2>
+              <p>
+                Kidawood is an information website for readers in the United States. It covers the
+                stock market and stock management software.
+              </p>
+              <p>
+                <Link href="/about">More about Kidawood</Link>
+              </p>
+            </div>
+
+            <div className="side-card side-disclaimer">
+              <h2>Disclaimer</h2>
+              <p>
+                Everything published on Kidawood is general information only, not financial advice.
+                For the full wording, read the{" "}
+                <Link href="/financial-disclaimer">financial disclaimer</Link>.
+              </p>
+            </div>
+          </aside>
         </div>
 
         {related.length > 0 && (

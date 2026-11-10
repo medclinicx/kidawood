@@ -29,6 +29,7 @@ export interface Article {
   image: string;
   imageAlt: string;
   intro: string;
+  takeaways?: string[];
   sections: ArticleSection[];
   faqs: ArticleFaq[];
   sources: ArticleSource[];
@@ -139,6 +140,12 @@ export const ARTICLES: Article[] = [
       "Simple illustration of a weather radar sweep over a map, with a chart line that ends in a question mark",
     intro:
       "No. MyRadar is not publicly traded. MyRadar is a weather radar app made by ACME AtronOmatic, a private company based in the United States. The company has no stock symbol, it is not listed on the NYSE, Nasdaq or any other exchange, and there are no MyRadar shares for the public to buy or sell.",
+    takeaways: [
+      "MyRadar is not publicly traded. The app is made by ACME AtronOmatic, a private company, so there is no MyRadar stock symbol and no shares the public can buy.",
+      "A well known app does not make a listed company. A product can be a household name while the company behind it stays private.",
+      "You can check any US company yourself in SEC EDGAR and in the NYSE and Nasdaq directories. No registration and no symbol means the company is private.",
+      "If a website shows a MyRadar share price, match the full legal company name before believing it, because the page may be about a different business with a similar name.",
+    ],
     sections: [
       {
         heading: "Why people search for MyRadar stock",
@@ -218,6 +225,12 @@ export const ARTICLES: Article[] = [
       "Simple illustration of a price chart sloping downward, with a warning marker showing that a rising price increases the loss",
     intro:
       "Short selling is a way to take a position that gains when a share price falls. On a brokerage platform such as E*TRADE, it is done from a margin account: you borrow shares, sell them at the current price, and later buy them back to return them. If the price fell, you keep the difference. If it rose, you pay the difference, and because a price can keep rising, the possible loss has no fixed limit.",
+    takeaways: [
+      "Short selling means borrowing shares, selling them, and buying them back later. You gain if the price falls and lose if it rises.",
+      "Short selling needs a margin account with short selling enabled. It is not available in a cash account or a retirement account.",
+      "The possible loss has no fixed limit, because a share price can keep rising and the shares still have to be bought back.",
+      "A short position is closed with a buy to cover order, and interest, borrow fees and any dividends owed while the position was open add to the cost.",
+    ],
     sections: [
       {
         heading: "What short selling is",
@@ -316,6 +329,12 @@ export const ARTICLES: Article[] = [
       "Simple illustration of a handheld barcode scanner reading a label on a storage box, with rows of boxes on shelves",
     intro:
       "Barcode stock management software keeps track of the goods a business holds by scanning a label each time something arrives, moves or leaves. Every scan updates the record straight away, so the count on screen matches the shelf far more closely than a typed spreadsheet usually does. It is used by warehouses, pharmacies, grocery stores and smaller shops that have outgrown counting by hand.",
+    takeaways: [
+      "Barcode software updates the stock record with every scan as goods arrive, move or leave, so the count on screen stays close to what is on the shelf.",
+      "The core features to look for are receiving records, low stock alerts at a reorder point you set, location tracking, and batch and expiry tracking for perishable or regulated goods.",
+      "Pharmacies, grocery stores and warehouses set the same basic system up in different ways, from expiry reports in a pharmacy to bin locations and order picking in a warehouse.",
+      "Before you buy, ask whether the system uses the barcodes already on your products, what hardware it works with, and how your data comes out if you leave, then run a short trial with your own products and staff.",
+    ],
     sections: [
       {
         heading: "How a barcode stock system works",

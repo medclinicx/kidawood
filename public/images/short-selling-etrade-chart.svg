@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Short selling chart with a risk warning</title>
+  <desc id="d">A price line falling from left to right, with a dashed line rising sharply to show the open ended risk if the price goes up instead.</desc>
+  <rect width="1200" height="675" fill="#eef3f8"/>
+  <rect x="80" y="80" width="1040" height="470" rx="18" fill="#ffffff" stroke="#d9e2ea" stroke-width="3"/>
+  <path d="M150 160 V490 M150 490 H1070" stroke="#0f2a4a" stroke-width="4"/>
+  <path d="M150 320 H1070" stroke="#d9e2ea" stroke-width="3" stroke-dasharray="10 10"/>
+  <path d="M190 210 L420 300 L640 350 L860 440 L1030 480" fill="none" stroke="#0e7a5f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M190 210 L450 190 L700 150 L1030 105" fill="none" stroke="#c0392b" stroke-width="6" stroke-linecap="round" stroke-dasharray="16 14"/>
+  <circle cx="190" cy="210" r="13" fill="#0f2a4a"/>
+  <text x="205" y="180" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0f2a4a">Sell borrowed shares</text>
+  <text x="760" y="520" font-family="Arial, sans-serif" font-size="30" fill="#0a5c48">Buy back to cover</text>
+  <g transform="translate(985,585)">
+    <path d="M0 -38 L34 28 H-34 Z" fill="#fdf8ec" stroke="#c9a227" stroke-width="5" stroke-linejoin="round"/>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#0f2a4a" text-anchor="middle">!</text>
+  </g>
+  <text x="120" y="620" font-family="Arial, sans-serif" font-size="28" fill="#7a2d22">If the price rises instead, the loss can keep growing</text>
+</svg>

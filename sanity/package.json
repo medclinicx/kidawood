@@ -1,0 +1,1 @@
+{"dependencies":{"react":"^19.0.0","react-dom":"^19.0.0","sanity":"^3.68.0","styled-components":"^6.1.0"},"name":"kidawood-studio","private":true,"scripts":{"build":"sanity build","deploy":"sanity deploy","dev":"sanity dev","start":"sanity start"},"version":"0.1.0"}

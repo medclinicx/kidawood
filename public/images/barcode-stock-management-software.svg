@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Barcode scanning in a stock room</title>
+  <desc id="d">Shelves of storage boxes, one box carrying a large barcode label, and a handheld scanner sending a beam toward it.</desc>
+  <rect width="1200" height="675" fill="#f2f7f5"/>
+  <rect x="70" y="110" width="700" height="14" fill="#0f2a4a"/>
+  <rect x="70" y="330" width="700" height="14" fill="#0f2a4a"/>
+  <rect x="70" y="550" width="700" height="14" fill="#0f2a4a"/>
+  <g fill="#ffffff" stroke="#0f2a4a" stroke-width="4">
+    <rect x="100" y="190" width="180" height="140" rx="8"/>
+    <rect x="310" y="190" width="180" height="140" rx="8"/>
+    <rect x="520" y="410" width="220" height="140" rx="8"/>
+    <rect x="100" y="410" width="180" height="140" rx="8"/>
+    <rect x="310" y="410" width="180" height="140" rx="8"/>
+  </g>
+  <g fill="#0e7a5f" opacity="0.25">
+    <rect x="100" y="190" width="180" height="34"/>
+    <rect x="310" y="410" width="180" height="34"/>
+  </g>
+  <rect x="545" y="440" width="170" height="80" fill="#ffffff" stroke="#24486e" stroke-width="3"/>
+  <g fill="#0f2a4a">
+    <rect x="560" y="455" width="8" height="50"/>
+    <rect x="576" y="455" width="4" height="50"/>
+    <rect x="588" y="455" width="12" height="50"/>
+    <rect x="608" y="455" width="5" height="50"/>
+    <rect x="621" y="455" width="9" height="50"/>
+    <rect x="638" y="455" width="4" height="50"/>
+    <rect x="650" y="455" width="13" height="50"/>
+    <rect x="671" y="455" width="5" height="50"/>
+    <rect x="684" y="455" width="9" height="50"/>
+    <rect x="700" y="455" width="4" height="50"/>
+  </g>
+  <path d="M790 400 L715 465 L790 520 Z" fill="#0e7a5f" opacity="0.3"/>
+  <g transform="rotate(24 880 460)">
+    <rect x="845" y="400" width="70" height="120" rx="14" fill="#0f2a4a"/>
+    <rect x="858" y="416" width="44" height="40" rx="6" fill="#7fd1b9"/>
+    <rect x="862" y="520" width="36" height="55" rx="10" fill="#24486e"/>
+  </g>
+  <text x="880" y="620" font-family="Arial, sans-serif" font-size="28" fill="#24486e" text-anchor="middle">Scan in, scan out</text>
+  <text x="180" y="80" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0f2a4a">Stock room</text>
+</svg>

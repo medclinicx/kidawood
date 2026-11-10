@@ -4,21 +4,18 @@ import { LEGAL_PAGES } from "@/lib/legal";
 import { SITE_URL } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
   const staticPages: MetadataRoute.Sitemap = [
-    { url: `${SITE_URL}/`, lastModified: now, changeFrequency: "weekly", priority: 1 },
-    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
+    { url: `${SITE_URL}/blog`, changeFrequency: "weekly", priority: 0.9 },
     ...CATEGORIES.map((category) => ({
       url: `${SITE_URL}${category.path}`,
-      lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.8,
     })),
-    { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${SITE_URL}/contact`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${SITE_URL}/about`, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${SITE_URL}/contact`, changeFrequency: "monthly", priority: 0.5 },
     ...LEGAL_PAGES.map((page) => ({
       url: `${SITE_URL}/${page.slug}`,
-      lastModified: now,
       changeFrequency: "yearly" as const,
       priority: 0.3,
     })),

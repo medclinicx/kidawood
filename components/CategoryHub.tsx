@@ -1,7 +1,26 @@
 import Link from "next/link";
 import ArticleCard from "@/components/ArticleCard";
-import { CATEGORIES, Category } from "@/lib/articles";
+import { CATEGORIES, Category, CategorySlug } from "@/lib/articles";
 import { getArticlesByCategory } from "@/lib/sanity";
+
+const CATEGORY_FALLBACK_IMAGES: Record<CategorySlug, { src: string; alt: string }> = {
+  stocks: {
+    src: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "Stock market candlestick chart on a dark screen",
+  },
+  investing: {
+    src: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "Stock market candlestick chart on a dark screen",
+  },
+  finance: {
+    src: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "US tax forms on a desk with a phone used as a calculator",
+  },
+  "stock-management": {
+    src: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "Warehouse shelves lined with yellow picking bins of stock",
+  },
+};
 
 export default async function CategoryHub({ category }: { category: Category }) {
   const articles = await getArticlesByCategory(category.slug);
@@ -51,10 +70,21 @@ export default async function CategoryHub({ category }: { category: Category }) 
               </div>
             </>
           ) : (
-            <p className="section-intro">
-              No articles have been published in this section yet. New guides are added to the{" "}
-              <Link href="/blog">blog index</Link> as they are finished.
-            </p>
+            <>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                className="featured-image"
+                src={CATEGORY_FALLBACK_IMAGES[category.slug].src}
+                alt={CATEGORY_FALLBACK_IMAGES[category.slug].alt}
+                width={1200}
+                height={630}
+                loading="lazy"
+              />
+              <p className="section-intro">
+                No articles have been published in this section yet. New guides are added to the{" "}
+                <Link href="/blog">blog index</Link> as they are finished.
+              </p>
+            </>
           )}
         </div>
       </section>

@@ -5,7 +5,7 @@ import { getCategory } from "@/lib/articles";
 const category = getCategory("investing");
 
 export const metadata: Metadata = {
-  title: "Investing — How Trading and Investing Work",
+  title: "Investing: How Trading and Investing Work",
   description:
     "Plain English investing guides: margin accounts, short selling, options and order types, with the risks of each written out in full.",
   alternates: { canonical: "/investing" },

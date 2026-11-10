@@ -16,6 +16,25 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+const CATEGORY_SHARE_IMAGES: Record<string, { url: string; alt: string }> = {
+  stocks: {
+    url: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "Stock market candlestick chart on a dark screen",
+  },
+  investing: {
+    url: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "Stock market candlestick chart on a dark screen",
+  },
+  finance: {
+    url: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "US tax forms on a desk with a phone used as a calculator",
+  },
+  "stock-management": {
+    url: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&h=630&q=80",
+    alt: "Warehouse shelves lined with yellow picking bins of stock",
+  },
+};
+
 export async function generateStaticParams() {
   return publishedArticles().map((article) => ({ slug: article.slug }));
 }
@@ -24,6 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const { slug } = await params;
   const article = await getArticle(slug);
   if (!article) return { title: "Article not found" };
+  const shareImage = CATEGORY_SHARE_IMAGES[article.category];
   return {
     title: article.title,
     description: article.excerpt,
@@ -34,9 +54,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: article.title,
       description: article.excerpt,
       url: `${SITE_URL}/blog/${article.slug}`,
-      images: [{ url: article.image, alt: article.imageAlt }],
+      images: [
+        {
+          url: shareImage.url,
+          width: 1200,
+          height: 630,
+          alt: shareImage.alt,
+        },
+      ],
       publishedTime: article.publishedAt,
       modifiedTime: article.updatedAt,
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [shareImage.url],
     },
   };
 }
@@ -93,6 +124,19 @@ export default async function ArticlePage({ params }: PageProps) {
     ],
   };
 
+  const faqSchema =
+    article.faqs.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: article.faqs.map((faq) => ({
+            "@type": "Question",
+            name: faq.q,
+            acceptedAnswer: { "@type": "Answer", text: faq.a },
+          })),
+        }
+      : null;
+
   return (
     <article>
       <script
@@ -103,6 +147,12 @@ export default async function ArticlePage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <div className="wrap">
         <div className="article-layout">
           <div className="article-column">

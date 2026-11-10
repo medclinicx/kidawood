@@ -4,19 +4,21 @@ import { CATEGORIES } from "@/lib/articles";
 import { getArticles } from "@/lib/sanity";
 
 const MARKET_CHART_IMAGE =
-  "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=80";
+  "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80";
+const MARKET_CHART_CARD_IMAGE =
+  "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=900&q=80";
 const PLANNING_DESK_IMAGE =
-  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80";
 const WAREHOUSE_AISLE_IMAGE =
-  "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80";
 const WAREHOUSE_WIDE_IMAGE =
-  "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80";
 const TAX_PAPERWORK_IMAGE =
-  "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80";
+  "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80";
 
 const CATEGORY_IMAGES: Record<string, { src: string; alt: string }> = {
   stocks: {
-    src: MARKET_CHART_IMAGE,
+    src: MARKET_CHART_CARD_IMAGE,
     alt: "Stock market candlestick chart on a dark screen",
   },
   investing: {
@@ -67,6 +69,8 @@ export default async function HomePage() {
             <img
               src={MARKET_CHART_IMAGE}
               alt="Stock market candlestick chart on a dark screen"
+              width={1200}
+              height={800}
               fetchPriority="high"
             />
           </div>
@@ -86,6 +90,8 @@ export default async function HomePage() {
                 className="pillar-media"
                 src={PLANNING_DESK_IMAGE}
                 alt="Two people at a desk with laptops, planning around a hand-drawn chart"
+                width={900}
+                height={600}
                 loading="lazy"
               />
               <div className="pillar-body">
@@ -105,6 +111,8 @@ export default async function HomePage() {
                 className="pillar-media"
                 src={WAREHOUSE_AISLE_IMAGE}
                 alt="Warehouse aisle with tall shelving holding wrapped stock"
+                width={900}
+                height={600}
                 loading="lazy"
               />
               <div className="pillar-body">
@@ -134,6 +142,8 @@ export default async function HomePage() {
                   className="category-card-media"
                   src={CATEGORY_IMAGES[category.slug].src}
                   alt={CATEGORY_IMAGES[category.slug].alt}
+                  width={900}
+                  height={600}
                   loading="lazy"
                 />
                 <div className="category-card-body">

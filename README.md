@@ -42,7 +42,7 @@ NEXT_PUBLIC_SANITY_PROJECT_ID=your-project-id
 NEXT_PUBLIC_SANITY_DATASET=production
 ```
 
-Restart the dev server after changing the file. In Sanity project settings, under API and CORS origins, add the origins the site will be read from, for example `http://localhost:3000` for local work and `https://kidawood.com` for the live site.
+Restart the dev server after changing the file. In Sanity project settings, under API and CORS origins, add the origins the site will be read from, for example `http://localhost:3000` for local work and `https://www.kidawood.com` for the live site.
 
 ### 3. Run the Studio
 

@@ -5,7 +5,7 @@ import { getCategory } from "@/lib/articles";
 const category = getCategory("finance");
 
 export const metadata: Metadata = {
-  title: "Finance and Legal — Advisers, Insurance and Stock Law Topics",
+  title: "Finance and Legal: Advisers, Insurance, Stock Law",
   description:
     "Financial advisers, stock fraud attorneys, stock throughput insurance, stock plan administration and donating stock, explained in plain terms.",
   alternates: { canonical: "/finance" },

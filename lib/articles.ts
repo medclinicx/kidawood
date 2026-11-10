@@ -213,7 +213,7 @@ export const ARTICLES: Article[] = [
     slug: "how-to-short-a-stock-on-etrade",
     title: "How to Short a Stock on E*TRADE: A Beginner's Guide",
     excerpt:
-      "Short selling means borrowing shares, selling them, and hoping to buy them back for less. It needs a margin account and carries the risk of losses with no fixed limit.",
+      "Short selling means borrowing shares, selling them, and hoping to buy them back for less. It needs a margin account, and losses can grow without limit.",
     category: "investing",
     primaryKeyword: "how to short stocks on ETRADE",
     secondaryKeywords: ["how to short stock ETRADE", "short selling E*TRADE", "how to short a stock"],
@@ -309,13 +309,16 @@ export const ARTICLES: Article[] = [
         label: "Investor.gov: introduction to short sales",
         url: "https://www.investor.gov/introduction-investing/investing-basics/glossary/short-sales",
       },
-      { label: "FINRA: margin accounts and margin requirements", url: "https://www.finra.org/investors/learn-to-invest/advanced-investing/margin" },
+      {
+        label: "Investor.gov: understanding margin accounts",
+        url: "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29",
+      },
     ],
     status: "published",
   },
   {
     slug: "barcode-stock-management-software",
-    title: "Barcode Stock Management Software: What It Does and How to Choose",
+    title: "Barcode Stock Management Software: How to Choose",
     excerpt:
       "Barcode stock management software records goods in and out by scanning labels instead of typing counts. Here is how it works and what to ask before buying.",
     category: "stock-management",

@@ -5,7 +5,7 @@ import { getCategory } from "@/lib/articles";
 const category = getCategory("stock-management");
 
 export const metadata: Metadata = {
-  title: "Stock Management — Inventory and Barcode Software Guides",
+  title: "Stock Management: Inventory and Barcode Software",
   description:
     "Guides to stock and inventory management software: barcode systems, pharmacy and grocery inventory, warehouse stock control and reorder points.",
   alternates: { canonical: "/stock-management" },

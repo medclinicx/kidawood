@@ -3,7 +3,7 @@ import ArticleCard from "@/components/ArticleCard";
 import { getArticles } from "@/lib/sanity";
 
 export const metadata: Metadata = {
-  title: "Blog — All Articles",
+  title: "Blog: All Articles",
   description:
     "Every article published on Kidawood: stocks, investing, stock management software and finance topics, in plain English.",
   alternates: { canonical: "/blog" },

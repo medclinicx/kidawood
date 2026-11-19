@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -44,6 +43,9 @@ export const metadata: Metadata = {
     images: [DEFAULT_SHARE_IMAGE],
   },
   robots: { index: true, follow: true },
+  other: {
+    "google-adsense-account": "ca-pub-6253690960930348",
+  },
 };
 
 const orgSchema = {
@@ -69,12 +71,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6253690960930348"
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}

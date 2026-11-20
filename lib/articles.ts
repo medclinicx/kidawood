@@ -541,6 +541,120 @@ export const ARTICLES: Article[] = [
     ],
     status: "published",
   },
+  {
+    slug: "terracycle-stock",
+    title: "TerraCycle Stock: Is TerraCycle Publicly Traded?",
+    excerpt:
+      "TerraCycle is private, so no TerraCycle stock trades on any exchange. Shares are available directly from the company through its Regulation A offering.",
+    category: "stocks",
+    primaryKeyword: "TerraCycle stock",
+    secondaryKeywords: ["is TerraCycle publicly traded", "TerraCycle stock symbol", "how to buy TerraCycle stock", "TerraCycle IPO"],
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    readingMinutes: 9,
+    image: "/images/terracycle-stock-recycling.svg",
+    imageAlt:
+      "Simple illustration of three recycling bins labelled collect, recycle and reuse, with a circular arrow above them",
+    intro:
+      "No. TerraCycle is a private company, so there is no TerraCycle stock symbol and no shares trading on the NYSE, Nasdaq or any other exchange. The one route to owning a piece of it is to buy non-voting preferred shares directly from TerraCycle US Inc. through its Regulation A offering, which works very differently from buying a listed stock.",
+    takeaways: [
+      "TerraCycle is private. There is no TerraCycle stock symbol, no listing and no share price on any exchange.",
+      "TerraCycle US Inc. sells non-voting Class B preferred shares directly to the public through a Regulation A offering. The price was $7.02 a share after a November 2026 supplement, with a minimum investment of 146 shares.",
+      "Those shares are not listed anywhere, and the company says no public market exists for them and none is expected to develop, so the money is tied up for an indefinite period.",
+      "There is no TerraCycle IPO on file. The chief executive has talked about a listing one day, but no date and no filing exist.",
+    ],
+    sections: [
+      {
+        heading: "Why people search for TerraCycle stock",
+        paragraphs: [
+          "TerraCycle is a familiar name. Its recycling programmes run in schools and offices, its Zero Waste Boxes turn up in workplaces, and its Loop reusable packaging platform has drawn years of press coverage. A company that visible looks like a listed company, so people search for a ticker and a share price.",
+          "Searchers usually want one of three things: a stock symbol, a current price, or a way to invest. The answer to the first two is no. The third has a real answer, but it is not the one most people expect.",
+          "The confusion is understandable, because TerraCycle does sell shares to the public. It just does not sell them on an exchange. That distinction is the whole story.",
+        ],
+      },
+      {
+        heading: "What TerraCycle is and who owns it",
+        paragraphs: [
+          "TerraCycle was founded in September 2001 by Tom Szaky and Jon Beyer, then freshmen at Princeton University. It started with a fertiliser made from worm compost and sold in used soda bottles, and it grew into a recycling business built on waste that normal municipal recycling does not take. Today it runs brand-funded collection programmes, sells Zero Waste Boxes for hard-to-recycle items, and recycles what it collects into raw material that manufacturers use to make new products. Its headquarters is in Trenton, New Jersey.",
+          "The ownership structure matters for anyone thinking about buying in. The global business is TerraCycle, Inc., the parent company. TerraCycle US Inc., incorporated in Delaware in August 2017, is the United States operating business and the parent's largest subsidiary. The parent owns all of its common stock, which is the only voting stock, and about 71 percent of its total equity. The remaining roughly 29 percent is held by people who bought shares in its earlier Regulation A and Regulation Crowdfunding offerings.",
+          "Loop, the reusable packaging platform, is part of the same group, not a separate listed company. It launched at the World Economic Forum meeting in Davos in January 2019, with pilots in Paris and New York that May. The United States pilots did not reach commercial scale. As of late 2025 Loop operates at national scale in France, where Carrefour carries more than 370 Loop products across 345 stores, with a smaller footprint in Japan.",
+        ],
+      },
+      {
+        heading: "The one way to buy TerraCycle shares",
+        paragraphs: [
+          "The current route is a Regulation A offering from TerraCycle US Inc. The offering circular is dated March 30, 2026, and it offers up to about 9.8 million shares of non-voting Class B preferred stock, plus bonus shares. DealMaker Securities LLC, a registered broker-dealer, acts as broker-dealer of record. Sales began on March 31, 2026.",
+          "The price and the minimum have both moved since the circular was published. The circular priced the shares at $6.74 each, with a minimum of 150 shares, or $1,011, plus a 3.5 percent transaction fee. Supplement No. 6, dated November 12, 2026, raised the price to $7.02 a share, so the minimum is now 146 shares, or $1,024.92, plus the fee. As of November 5, 2026, the company had sold about 1,364,434 shares in this offering.",
+          "This is not TerraCycle's first public offering of its own shares. An earlier Regulation A round sold non-voting Class A preferred stock at $100 a share and raised $19.5 million, closing in October 2020. A Regulation Crowdfunding round then raised about $4.99 million from 1,788 investors at $6.67 a share. The two rounds show the pattern: TerraCycle raises money directly from the public, in small pieces, without listing.",
+          "In practice, you subscribe through the platform run by DealMaker, agree to the subscription agreement, and your money is held in a segregated account until the company accepts your subscription. There is no minimum offering amount, the offering is conducted on a best-efforts basis, and subscriptions are accepted on a rolling basis. For most non-accredited investors, Regulation A also caps the purchase: generally no sale may be made if the total price is more than 10 percent of the greater of your annual income or net worth.",
+        ],
+      },
+      {
+        heading: "What those shares are not",
+        paragraphs: [
+          "The most important thing to understand is what you are not getting. These shares are not a listed stock. There is no ticker, no exchange, no daily price and no way to buy them through a brokerage app. The subscription agreement says it plainly: no public market exists for the securities, and no public market is expected to develop after the offering.",
+          "They are also non-voting shares, so buyers get no vote on company decisions except where Delaware law requires one. And they are illiquid. The same agreement warns that the investment is suitable only for people who can bear the economic risk for an indefinite period and who can afford to lose their entire investment. If you need the money back on a schedule, these shares do not fit.",
+          "Dividends are not something to count on either. The earlier Class A round paid a dividend of $2.61 a share in 2020, described at the time as half of after-tax income per share. That was one year, for one class of shares, and it is not a promise about the current Class B shares. The terms of the current offering govern, and they should be read in the circular itself before any money is committed.",
+        ],
+        subsections: [
+          {
+            heading: "A listed stock compared with TerraCycle's offering",
+            paragraphs: [
+              "A listed stock is bought through a broker, carries a ticker, has a market price that moves every trading day, and can usually be sold the same day. Voting rights are standard for common stock, and the minimum purchase is one share.",
+              "TerraCycle's Class B shares are bought directly from the company, carry no ticker, and have a price set by the company, currently $7.02 a share after the November 2026 supplement. There is no market to sell into, no voting rights, and a minimum purchase of 146 shares. The two things share the word stock and little else.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Is a TerraCycle IPO coming?",
+        paragraphs: [
+          "No. TerraCycle has not filed for an initial public offering, and it has not announced a listing date. An S-1 registration statement on SEC EDGAR would be the real signal, and there is none.",
+          "The chief executive has spoken about a listing as a future ambition. In an interview in December 2021, Tom Szaky said the company had ambitions to look at an IPO at some point, and that about $150 million in revenue felt like the right time for serious consideration. At that point the whole group was doing about $75 million in revenue for the year, so a listing was still some way off even on his own measure.",
+          "The numbers since then do not point to an imminent listing either. In its February 2026 crowdfunding filing, TerraCycle US Inc. reported revenue of about $43.1 million for its most recent fiscal year, with net income of about $851,000 and 162 employees. That is the United States subsidiary only, not the whole group, so it is not the figure to compare with the $150 million comment.",
+          "Until a filing appears, IPO talk about TerraCycle is just talk. If you want to follow it, the place to watch is SEC EDGAR under TerraCycle US Inc., not a price page for a ticker that does not exist.",
+        ],
+      },
+      {
+        heading: "How to check any private company yourself",
+        paragraphs: [
+          "You do not need to take a website's word for whether a company is listed. Two free checks settle it for any United States company. First, search the name in SEC EDGAR. Companies that sell shares to the public must register and file reports there. Second, check the NYSE and Nasdaq directories of listed companies. A company in neither place, with no symbol assigned, is not traded on those exchanges.",
+          "If a company does sell shares directly, as TerraCycle does, the offering circular is the document that matters. Read the risk factors and the language about public markets before anything else. The circular is the company's own description of what you are buying.",
+          "Be careful with anyone offering TerraCycle stock through a broker, or promising that a listing is about to happen. There is no listed TerraCycle stock for a broker to sell. And match the legal name: the issuer is TerraCycle US Inc., a subsidiary, while the parent company is TerraCycle, Inc. Mixing the two up is an easy way to read the wrong document.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the TerraCycle stock symbol?",
+        a: "There is none. TerraCycle is a private company, so no exchange has assigned it a symbol, and there is no TerraCycle ticker to look up.",
+      },
+      {
+        q: "Can I buy TerraCycle stock on Robinhood or E*TRADE?",
+        a: "No. The shares are not listed on any exchange, so no brokerage app can sell them. The only route is to buy non-voting preferred shares directly from TerraCycle US Inc. through its Regulation A offering.",
+      },
+      {
+        q: "How much does it cost to invest in TerraCycle?",
+        a: "Under the November 12, 2026 supplement, the minimum is 146 shares at $7.02 each, or $1,024.92, plus a 3.5 percent transaction fee. The price can change with later supplements, so check the current offering circular before investing.",
+      },
+      {
+        q: "Does TerraCycle pay a dividend?",
+        a: "Not as a promise. The earlier Class A round paid a dividend of $2.61 a share in 2020. Nothing in the current offering guarantees a dividend on the Class B shares, and the circular's terms govern.",
+      },
+      {
+        q: "Will TerraCycle go public with an IPO?",
+        a: "There is no filing and no date. The chief executive has said the company would consider a listing one day, once revenue is much larger, but nothing is scheduled. An S-1 filing on SEC EDGAR would be the first real sign.",
+      },
+    ],
+    sources: [
+      { label: "SEC: TerraCycle US Inc. offering circular, March 30, 2026", url: "https://www.sec.gov/Archives/edgar/data/1714781/000110465926036635/tm2533875d3_253g2.htm" },
+      { label: "SEC: Supplement No. 6 to the offering circular, November 12, 2026", url: "https://www.sec.gov/Archives/edgar/data/1714781/000110465926126853/tm2629717d1_253g2.htm" },
+      { label: "SEC: TerraCycle US Inc. Form C, signed February 18, 2026", url: "https://www.sec.gov/Archives/edgar/data/1714781/000207002426000001/xslC_X01/primary_doc.xml" },
+      { label: "Senior Executive: TerraCycle CEO on why and when to pursue equity crowdfunding", url: "https://seniorexecutive.com/terracycle-ceo-on-why-and-when-to-pursue-equity-crowdfunding/" },
+      { label: "InvestorPlace: Invest in TerraCycle Stock to Buy a Stake in the Future of Consumption", url: "https://www.nasdaq.com/articles/invest-in-terracycle-stock-to-buy-a-stake-in-the-future-of-consumption-2020-08-11" },
+    ],
+    status: "published",
+  }
 ];
 
 export function publishedArticles(): Article[] {

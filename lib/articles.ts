@@ -406,6 +406,141 @@ export const ARTICLES: Article[] = [
     ],
     status: "published",
   },
+  {
+    slug: "stock-rover-vs-seeking-alpha",
+    title: "Stock Rover vs Seeking Alpha: Which Research Tool Fits You?",
+    excerpt:
+      "Stock Rover is a screening and portfolio workspace built on company data, while Seeking Alpha centres on analyst writing and Quant Ratings.",
+    category: "investing",
+    primaryKeyword: "Stock Rover vs Seeking Alpha",
+    secondaryKeywords: ["Stock Rover vs Seeking Alpha", "Seeking Alpha vs Stock Rover", "Stock Rover pricing", "Seeking Alpha Premium price"],
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    readingMinutes: 7,
+    image: "/images/stock-rover-vs-seeking-alpha.svg",
+    imageAlt:
+      "Simple illustration of two research tools side by side: a stock screening table on the left and an analyst article with a rating badge on the right",
+    intro:
+      "Stock Rover and Seeking Alpha serve different jobs. Stock Rover is a research workspace for screening thousands of stocks on hundreds of financial metrics and tracking a portfolio against them. Seeking Alpha is an analysis platform where independent analysts write about stocks and where a data-driven Quant Rating grades each stock from Strong Buy to Strong Sell. If you want to find stocks by the numbers, Stock Rover is the stronger pick. If you want to read the case for and against a stock, Seeking Alpha is.",
+    takeaways: [
+      "Stock Rover is built around screening and comparison on company data, with more than 800 metrics on its top plans and research reports for stocks, ETFs and funds.",
+      "Seeking Alpha is built around analyst articles and Quant Ratings, with a free Basic plan and Premium listed at $239 for the first year.",
+      "Stock Rover paid plans start at $29 a month on annual billing, while Seeking Alpha PRO is listed at $1,920 for the first year, so the two sit at very different price points.",
+      "Neither tool is a broker and neither gives personal advice. Your choice should follow how you research: by the numbers, by reading analysis, or both.",
+    ],
+    sections: [
+      {
+        heading: "What each tool is",
+        paragraphs: [
+          "Stock Rover is a web-based investment research and portfolio management platform. Its core is a screener that filters thousands of stocks and ETFs on financial metrics, a comparison table that lines stocks up side by side, and research reports that pull a company's fundamentals, income, risk and peer comparisons into one document. It also tracks portfolios, including accounts linked from a brokerage, and shows performance, sector exposure and dividend income in one place.",
+          "Seeking Alpha is an investment analysis platform built on two things: articles written by independent analysts and a Quant Rating system that grades stocks and ETFs from Strong Buy to Strong Sell using metrics such as profitability and valuation. Around those it offers breaking market news, stock and ETF screeners, portfolio health checks, price alerts, and an AI research assistant called Ask Seeking Alpha. It also publishes earnings call insights and AI summary reports on the stocks you follow.",
+          "The short version is that Stock Rover is a tool for working with data yourself, while Seeking Alpha is a place to read what other people think about a stock, backed by a data rating. Many investors use one of them as their main workspace and dip into the other when they need what it does best.",
+        ],
+      },
+      {
+        heading: "Screening and research compared",
+        paragraphs: [
+          "Screening is where the two differ most. Both offer a screener, but Stock Rover treats screening as the main event and Seeking Alpha treats it as one feature among many.",
+        ],
+        subsections: [
+          {
+            heading: "Stock Rover screening",
+            paragraphs: [
+              "Stock Rover covers more than 8,500 North American stocks, more than 7,000 ETFs and tens of thousands of mutual funds. Paid plans screen on 400 or more metrics, rising to more than 800 on the top tiers, with five to twenty years of financial history depending on the plan. The higher plans add equation screening, where you write a formula across metrics and across time, and ranked and historical screening. There are also more than 150 ready-made screeners, and model portfolios built on the published strategies of well known investors.",
+              "The comparison table is the other half of the tool. You can put several stocks side by side across hundreds of metrics and see strengths and weaknesses at a glance. The research reports do the same job in document form, for a single stock or fund, and now cover ETFs and mutual funds as well.",
+            ],
+          },
+          {
+            heading: "Seeking Alpha research",
+            paragraphs: [
+              "Seeking Alpha's main strength is the volume and variety of its analysis. Independent analysts publish in-depth articles on stocks and ETFs, and the comments under those articles often add useful pushback from other readers. The Quant Rating gives each stock a single grade, and the site ranks top stocks and ETFs so you can surface new ideas without writing a screen yourself.",
+              "The screener exists and works, but it is simpler than Stock Rover's. What Seeking Alpha adds instead is context: earnings call transcripts and insights, news tied to the stocks you follow, and portfolio tools that flag holdings whose ratings have changed. If your research habit is reading before deciding, that context matters more than the number of screening metrics.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Portfolio tracking compared",
+        paragraphs: [
+          "Both tools track portfolios, and both let you link a brokerage account so holdings update on their own. The difference is in what they do with the portfolio once it is loaded.",
+          "Stock Rover goes deeper on the portfolio itself. It measures performance against any benchmark, not only the S and P 500, and breaks down allocation by sector, region, market size and style. It plans rebalancing, meaning the trades that bring each holding back to its target weight, and it projects dividend income. A portfolio performance report added in 2026 packages return, income and allocation into one document.",
+          "Seeking Alpha keeps portfolio tracking simpler. It shows prices, news and ratings for your holdings, sends alerts when something changes, and runs a portfolio health check. That is enough for an investor who mainly wants to keep an eye on what they own and read analysis when a holding moves. It is less useful if you manage several accounts and want detailed attribution for what drove your return.",
+        ],
+      },
+      {
+        heading: "Pricing compared",
+        paragraphs: [
+          "Prices change, and both sites run sales, so treat the figures here as a snapshot checked on 20 November 2026 and confirm the current price on the pricing page before you pay. Seeking Alpha was running a Black Friday sale when this article was checked, which may affect first-year prices.",
+          "Stock Rover has a free plan with basic screening and portfolio tracking, and new users get a 14-day trial of the paid features. The paid plans are Premium, Premium Plus, Ultimate and Ultimate Pro. Premium is listed at $29 a month on annual billing, or $34 month to month. Premium Plus is listed at $49 a month on annual billing. Ultimate is listed at $79 a month on annual billing, and Ultimate Pro, which is aimed at advisers, at $149 a month on annual billing. Each step up adds metrics, history, screening power and portfolio limits.",
+          "Seeking Alpha has a free Basic plan with market news, one free Premium article, portfolios, watchlists and price alerts. Premium is listed at $239 for the first year and gives unlimited analyst articles, Quant Ratings, screeners, top stock and ETF rankings, and the AI research assistant. PRO is listed at $1,920 for the first year and adds a weekly high-conviction portfolio, daily upgrades and downgrades driven by Quant signals, and top analyst ideas with filters for success rate and past returns.",
+          "On price alone, the entry points are close: Stock Rover Premium at $348 a year on annual billing against Seeking Alpha Premium at $239 for the first year. The top ends are far apart, with Seeking Alpha PRO aimed at active professionals and Stock Rover Ultimate Pro aimed at advisers. Most individual investors will be choosing between the two Premium plans, not the top tiers.",
+        ],
+      },
+      {
+        heading: "Which one fits which investor",
+        paragraphs: [
+          "The right choice depends on how you actually research, not on which feature list is longer. Think about what you do first when you look at a stock.",
+        ],
+        subsections: [
+          {
+            heading: "Choose Stock Rover if you screen by the numbers",
+            paragraphs: [
+              "Pick Stock Rover if you build your own screens, compare stocks metric by metric, and manage a portfolio across several accounts. Value, growth, dividend and quantitative investors who want ten or twenty years of history and the ability to write their own screening formulas will get the most from it. Premium Plus is the tier most serious individual investors land on, because it adds equation screening and ten years of fundamentals without the institutional scale of Ultimate.",
+            ],
+          },
+          {
+            heading: "Choose Seeking Alpha if you read before you decide",
+            paragraphs: [
+              "Pick Seeking Alpha if you want to read the bull and bear case for a stock, follow analyst ideas, and check a Quant Rating before you dig deeper. It suits investors who hold a smaller number of positions and want news, earnings insight and ratings tied to what they own. The free Basic plan is a fair way to test whether the writing and the ratings earn a subscription.",
+            ],
+          },
+          {
+            heading: "Using both",
+            paragraphs: [
+              "Some investors pay for one and use the free tier of the other. A common split is Stock Rover for screening and portfolio work, with Seeking Alpha Basic for news and the occasional free Premium article, or Seeking Alpha Premium for reading and ratings, with Stock Rover's free plan for basic screening. There is no rule that you must pick one, and the free tiers make it cheap to try the combination before paying for either.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What neither tool does",
+        paragraphs: [
+          "Neither Stock Rover nor Seeking Alpha is a broker, so neither one buys or sells stocks for you. You still place trades through a brokerage account, and linking that account to a research tool is for tracking only.",
+          "Neither tool gives personal financial advice either. Stock Rover gives you data and scores to work with. Seeking Alpha publishes other people's opinions and a data-driven rating. Both can help you ask better questions, but the decision about your own money is yours, and for a decision with real consequences a licensed adviser is the right person to talk to.",
+          "Finally, remember that ratings and screens look backwards. A Quant Rating is built on reported financials, and a screen finds stocks that matched your rules in the past. Neither one can tell you what a company will earn next year or where its price will go, so treat both tools as research aids, not answers.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is there a free version of Stock Rover?",
+        a: "Yes. Stock Rover offers a free plan with basic screening and portfolio tracking, and new users get a 14-day trial of the paid features. The paid plans start at Premium, listed at $29 a month on annual billing.",
+      },
+      {
+        q: "Is Seeking Alpha free?",
+        a: "Partly. The free Basic plan includes breaking market news, one free Premium article, portfolios, watchlists and price alerts. Unlimited analyst articles, Quant Ratings and the full screener need Premium, listed at $239 for the first year.",
+      },
+      {
+        q: "Can I use Stock Rover and Seeking Alpha together?",
+        a: "Yes, many investors do. A common split is one paid plan for the main work and the other tool's free tier for what it does best, such as Stock Rover for screening and Seeking Alpha Basic for news. The free tiers make it easy to try the combination first.",
+      },
+      {
+        q: "Do Stock Rover or Seeking Alpha buy and sell stocks?",
+        a: "No. Neither is a broker. Both can link to a brokerage account to track holdings, but trades are placed through the broker itself.",
+      },
+      {
+        q: "Which is better for dividend investors?",
+        a: "It depends on how you research dividends. Stock Rover screens on dividend metrics such as yield, payout and growth history, and projects dividend income for a portfolio. Seeking Alpha has dividend-focused analyst coverage and Quant grades that include dividend safety. A dividend investor who screens will lean toward Stock Rover, and one who reads analysis will lean toward Seeking Alpha.",
+      },
+    ],
+    sources: [
+      { label: "Stock Rover: investment research and portfolio management", url: "https://www.stockrover.com/" },
+      { label: "Stock Rover pricing", url: "https://www.stockrover.com/pricing" },
+      { label: "Seeking Alpha subscriptions: Basic, Premium and PRO", url: "https://seekingalpha.com/subscriptions" },
+      { label: "Liberated Stock Trader: Stock Rover pricing plans", url: "https://www.liberatedstocktrader.com/stock-rover-pricing-discounts/" },
+    ],
+    status: "published",
+  },
 ];
 
 export function publishedArticles(): Article[] {

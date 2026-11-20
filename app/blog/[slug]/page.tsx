@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ArticleCard from "@/components/ArticleCard";
+import ShareButtons from "@/components/ShareButtons";
 import {
   CATEGORIES,
   FINANCE_CATEGORIES,
@@ -288,6 +289,11 @@ export default async function ArticlePage({ params }: PageProps) {
                 )}
               </ol>
             </nav>
+
+            <div className="side-card">
+              <h2>Share this article</h2>
+              <ShareButtons url={`${SITE_URL}/blog/${article.slug}`} title={article.title} />
+            </div>
 
             {latest.length > 0 && (
               <div className="side-card">

@@ -816,6 +816,31 @@ a:hover {
   background: var(--tint);
 }
 
+.share-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.share-btn {
+  display: block;
+  text-align: center;
+  padding: 9px 12px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #2563eb, #0ea5e9);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.share-btn:hover {
+  opacity: 0.92;
+}
+
 @media (max-width: 860px) {
   .article-layout {
     grid-template-columns: 1fr;

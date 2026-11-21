@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">LiquidPiston stock: rotary engine and a question mark</title>
+  <desc id="d">A triangular rotary engine rotor inside a round housing, beside a large question mark.</desc>
+  <rect width="1200" height="675" fill="#eef3f8"/>
+  <circle cx="430" cy="300" r="200" fill="#ffffff" stroke="#0f2a4a" stroke-width="8"/>
+  <path d="M430 150 L565 395 L295 395 Z" fill="#0e7a5f" stroke="#0e7a5f" stroke-width="16" stroke-linejoin="round"/>
+  <circle cx="430" cy="300" r="36" fill="#0f2a4a"/>
+  <circle cx="430" cy="300" r="14" fill="#ffffff"/>
+  <text x="860" y="380" font-family="Arial, sans-serif" font-size="240" font-weight="bold" fill="#0f2a4a" text-anchor="middle">?</text>
+  <text x="600" y="620" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0f2a4a" text-anchor="middle">LiquidPiston stock: private company, public crowdfunding</text>
+</svg>

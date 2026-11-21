@@ -654,6 +654,121 @@ export const ARTICLES: Article[] = [
       { label: "InvestorPlace: Invest in TerraCycle Stock to Buy a Stake in the Future of Consumption", url: "https://www.nasdaq.com/articles/invest-in-terracycle-stock-to-buy-a-stake-in-the-future-of-consumption-2020-08-11" },
     ],
     status: "published",
+  },
+  {
+    slug: "liquid-piston-stock",
+    title: "LiquidPiston Stock: Is LiquidPiston Publicly Traded?",
+    excerpt:
+      "LiquidPiston is private, so no LiquidPiston stock trades on any exchange. Shares are sold directly through crowdfunding rounds on StartEngine.",
+    category: "stocks",
+    primaryKeyword: "LiquidPiston stock",
+    secondaryKeywords: ["is LiquidPiston publicly traded", "LiquidPiston stock symbol", "how to buy LiquidPiston stock", "LiquidPiston IPO"],
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    readingMinutes: 8,
+    image: "/images/liquid-piston-stock-rotary-engine.svg",
+    imageAlt:
+      "Simple illustration of a triangular rotary engine rotor inside a round housing, beside a large question mark",
+    intro:
+      "No. LiquidPiston is a private company, so there is no LiquidPiston stock symbol and no shares trading on the NYSE, Nasdaq or any other exchange. The one route to owning a piece of it is to buy common stock directly through its Regulation Crowdfunding rounds on StartEngine. The latest round closed on October 15, 2026, priced at $13.50 a share, and it is now closed to new investors.",
+    takeaways: [
+      "LiquidPiston is private. There is no LiquidPiston stock symbol, no listing and no share price on any exchange.",
+      "The latest Regulation Crowdfunding round closed on October 15, 2026, at $13.50 a share, and raised about $3.9 million. Total crowdfunding now exceeds $50 million from nearly 20,000 investors across seven rounds.",
+      "Crowdfunding shares are common stock bought through StartEngine, not a listed stock. They are illiquid, with no public market and no expectation of one.",
+      "There is no LiquidPiston IPO on file. The company funds its work with government contracts, about $65 million to date, and with crowdfunding while it licenses its engine technology.",
+    ],
+    sections: [
+      {
+        heading: "Why people search for LiquidPiston stock",
+        paragraphs: [
+          "LiquidPiston shows up in the news every time it opens a crowdfunding round, and each round brings a fresh wave of searches for a stock symbol and a share price. The company has raised more than $50 million from nearly 20,000 small investors, which makes it look like a public company to anyone who has not checked.",
+          "Searchers usually want one of three things: a symbol, a current price, or a way to invest. The answer to the first two is no. The third has a real answer, but it is not the one most people expect.",
+          "The confusion is understandable, because LiquidPiston does sell shares to the public. It just does not sell them on an exchange. That distinction is the whole story.",
+        ],
+      },
+      {
+        heading: "What LiquidPiston is and who owns it",
+        paragraphs: [
+          "LiquidPiston, Inc. is a Delaware company based in Bloomfield, Connecticut. It was founded in 2004 by father and son Nikolay Shkolnik and Alexander Shkolnik, a physicist and a computer scientist who set out to rethink the internal combustion engine from the thermodynamics up. Alexander Shkolnik is the chief executive, and Nikolay Shkolnik is the chief technology officer.",
+          "The product is the X-Engine, a rotary engine built around a patented thermodynamic cycle the company calls the high-efficiency hybrid cycle. It has two primary moving parts, a rotor and an eccentric shaft, and the company says it can be up to three to ten times smaller and lighter than a diesel engine of the same power, and up to twice as efficient as a small turbine engine. It is also the first rotary engine that can burn heavy fuels such as diesel and jet fuel using compression ignition, which matters for military use, where those fuels are the ones on hand.",
+          "LiquidPiston describes itself as a technology company, not an engine manufacturer. The plan is to license the engine design to manufacturers and to sell engineering services, while building engines in low volumes for customer pilots and demonstrators. The intellectual property sits behind that plan: the company's annual report lists 113 US and international patents granted or pending.",
+          "The first customer is the US military. The company says it has secured about $65 million in US Department of War contracts to date, including a three-year, $35 million US Air Force contract awarded in September 2023 to develop a larger X-Engine and hybrid power systems. A 2025 Army SBIR CATALYST award added a one-year, $1 million base phase to develop an auxiliary power unit for a mobile command post, with the possibility of $7 million in matching funding.",
+        ],
+      },
+      {
+        heading: "The crowdfunding route to owning shares",
+        paragraphs: [
+          "LiquidPiston has turned to the public for capital again and again. Its first crowdfunding rounds ran on Wefunder in 2018, and it has since raised through Regulation A and Regulation Crowdfunding rounds, with a ten-for-one stock split in March 2022 along the way. The pattern is steady: small investments from many people, in exchange for common stock in a private company.",
+          "The most recent round ran on StartEngine and closed on October 15, 2026. Shares were priced at $13.50 each, which put a valuation of $297.35 million on the company, and the minimum investment was $1,012.50, or 75 shares. The round had a $3.5 million goal and a $5 million ceiling, and the company's invest page showed about $3.9 million raised when it closed. More than 900 investors had joined the round by early September, when the company announced the closing date.",
+          "The round before that ran in August 2024, also as a Regulation Crowdfunding offering, at $11.50 a share. It was fully subscribed within about two months, and the company later issued 251,558 common shares for gross proceeds of $2,780,171. Investors in that round did not hold the shares directly: they bought membership interests in a special purpose vehicle, LiquidPiston 2024 Reg CF SPV, LLC, which in turn held the company's common stock.",
+          "The 2026 round carried an extra draw. Up to $3.5 million of the raise could be matched by up to $7 million in Army SBIR funding through the Army CATALYST program, if the company also secured $3.5 million from a non-SBIR Army transition partner. The company said the combined funding could reach $10.5 million, to be applied to an auxiliary power system for next generation command and control. That match was never guaranteed, and the company's own materials said so.",
+          "Regulation Crowdfunding also puts a cap on what an ordinary investor can put in. A non-accredited investor is limited each year to a percentage of the greater of annual income or net worth, so the amount you can invest depends on your own finances, not just on the minimum the company sets.",
+        ],
+      },
+      {
+        heading: "What those shares are not",
+        paragraphs: [
+          "The most important thing to understand is what you are not getting. These shares are not a listed stock. There is no ticker, no exchange, no daily price and no way to buy them through a brokerage app. The offering documents say it plainly: the investment is speculative and illiquid, and it involves a high degree of risk, including the possible loss of the entire investment.",
+          "They are also hard to sell. There is no public market for the shares, and none is expected to develop. Anyone who buys in should expect the money to be tied up for an indefinite period, with no set date for getting it back. That is the trade for buying into a private company at an early stage.",
+          "The price is set by the company, not by a market. It moved from $11.50 a share in the 2024 round to $13.50 in the 2026 round, and it can move again in the next round. A higher price in a later round is not the same as a rising share price on an exchange, because there is no market testing the price each day.",
+        ],
+        subsections: [
+          {
+            heading: "A listed stock compared with LiquidPiston's shares",
+            paragraphs: [
+              "A listed stock is bought through a broker, carries a ticker, has a market price that moves every trading day, and can usually be sold the same day. The minimum purchase is one share.",
+              "LiquidPiston's crowdfunding shares are bought directly through StartEngine, carry no ticker, and have a price set by the company, currently $13.50 a share from the round that closed in October 2026. There is no market to sell into, and a minimum purchase of 75 shares. The two things share the word stock and little else.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Is a LiquidPiston IPO coming?",
+        paragraphs: [
+          "No. LiquidPiston has not filed for an initial public offering, and it has not announced a listing date. An S-1 registration statement on SEC EDGAR would be the real signal, and there is none.",
+          "The company has never said it plans to list. Its filings describe a business funded by government contracts and by selling shares directly to the public, while it works toward licensing deals with manufacturers. A listing would be a change of direction, not the next step in a stated plan.",
+          "Until a filing appears, IPO talk about LiquidPiston is just talk. If you want to follow it, the place to watch is SEC EDGAR under LiquidPiston, Inc., not a price page for a ticker that does not exist.",
+        ],
+      },
+      {
+        heading: "How to check any private company yourself",
+        paragraphs: [
+          "You do not need to take a website's word for whether a company is listed. Two free checks settle it for any United States company. First, search the name in SEC EDGAR. Companies that sell shares to the public must register and file reports there. Second, check the NYSE and Nasdaq directories of listed companies. A company in neither place, with no symbol assigned, is not traded on those exchanges.",
+          "If a company does sell shares directly, as LiquidPiston does, the offering documents are the ones that matter. Read the Form C and the risk factors before anything else. The filing is the company's own description of what you are buying, including the price, the minimum, and the warning that the shares are illiquid.",
+          "Be careful with anyone offering LiquidPiston stock through a broker, or promising that a listing is about to happen. There is no listed LiquidPiston stock for a broker to sell. And match the legal name: the issuer is LiquidPiston, Inc., a Delaware company based in Bloomfield, Connecticut. Mixing it up with another company of a similar name is an easy way to read the wrong document.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the LiquidPiston stock symbol?",
+        a: "There is none. LiquidPiston is a private company, so no exchange has assigned it a symbol, and there is no LiquidPiston ticker to look up.",
+      },
+      {
+        q: "Can I buy LiquidPiston stock on Robinhood or E*TRADE?",
+        a: "No. The shares are not listed on any exchange, so no brokerage app can sell them. The only route has been to buy common stock directly through the company's Regulation Crowdfunding rounds on StartEngine.",
+      },
+      {
+        q: "How much did shares cost in the latest round?",
+        a: "The round that closed on October 15, 2026 priced shares at $13.50 each, with a minimum investment of $1,012.50, or 75 shares. The round raised about $3.9 million. The price can change in any future round.",
+      },
+      {
+        q: "Is the LiquidPiston crowdfunding round still open?",
+        a: "No. The latest round closed on October 15, 2026. The company's invest page now shows the raise as ended. A new round would be announced on the same page and filed on SEC EDGAR.",
+      },
+      {
+        q: "Will LiquidPiston go public with an IPO?",
+        a: "There is no filing and no date. The company has not announced a listing, and its filings describe a business funded by government contracts and direct share sales. An S-1 filing on SEC EDGAR would be the first real sign.",
+      },
+    ],
+    sources: [
+      { label: "SEC: LiquidPiston, Inc. Form 1-K, fiscal year ended September 30, 2025", url: "https://www.sec.gov/Archives/edgar/data/1446275/000168316826000460/liquidpiston_1k.htm" },
+      { label: "GlobeNewswire: LiquidPiston Crowdfunding Round Closes Oct. 15, September 3, 2026", url: "https://www.globenewswire.com/news-release/2026/09/03/3356098/0/en/liquidpiston-crowdfunding-round-closes-oct-15.html" },
+      { label: "LiquidPiston: invest page and 2026 offering terms", url: "https://invest.liquidpiston.com/" },
+      { label: "StartEngine: LiquidPiston offering update", url: "https://www.startengine.com/offering/liquidpiston/update/3fe21ac9-a78f-492b-8cf6-82a433be50f9" },
+      { label: "SEC: LiquidPiston, Inc. Form C/A, August 12, 2026", url: "https://www.sec.gov/Archives/edgar/data/1446275/000144627526000011/0001446275-26-000011-index-headers.html" },
+    ],
+    status: "published",
   }
 ];
 

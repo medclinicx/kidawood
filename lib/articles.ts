@@ -769,6 +769,143 @@ export const ARTICLES: Article[] = [
       { label: "SEC: LiquidPiston, Inc. Form C/A, August 12, 2026", url: "https://www.sec.gov/Archives/edgar/data/1446275/000144627526000011/0001446275-26-000011-index-headers.html" },
     ],
     status: "published",
+  },
+  {
+    slug: "accounting-and-stock-management-software",
+    title: "Accounting and Stock Management Software: What It Does and How to Choose",
+    excerpt:
+      "Combined accounting and stock software keeps your books and your shelves in step. Here is how it works and how to pick the right setup.",
+    category: "stock-management",
+    primaryKeyword: "accounting and stock management software",
+    secondaryKeywords: ["accounting and inventory management software", "stock management software with accounting", "inventory accounting software for small business"],
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    readingMinutes: 8,
+    image: "/images/accounting-and-stock-management-software.svg",
+    imageAlt:
+      "Simple illustration of an open ledger book beside stacked storage boxes with a barcode label",
+    intro:
+      "Accounting and stock management software keeps two records in one place: the money coming in and going out, and the goods sitting on the shelves. When a sale is recorded, the stock count falls and the accounts update at the same time, so the books and the warehouse stop drifting apart. This guide explains what the combined tools do, the three common ways businesses set them up, and the questions worth asking before you pay for one.",
+    takeaways: [
+      "Combined software links every sale and purchase to both the accounts and the stock record, so one entry updates the books, the stock count and the cost of goods sold.",
+      "The core features are real time stock levels, low stock alerts at a reorder point you set, invoicing and purchase orders, and reports that show margin and cash tied up in stock.",
+      "There are three common setups: an accounting tool with built in stock tracking, a dedicated inventory tool connected to your accounts, and a full ERP system for larger operations.",
+      "QuickBooks Online only tracks inventory on its Plus and Advanced plans, and Xero's tracked inventory suits finished goods sold by invoice, so check the plan and the limits before you buy.",
+    ],
+    sections: [
+      {
+        heading: "What combined accounting and stock software does",
+        paragraphs: [
+          "A business that sells physical goods has two records to keep, and they describe the same events from different sides. The accounting record says what was sold, what it cost and what is owed. The stock record says how many units are left, where they are and when more are needed. Kept apart, the two records drift. The books say a product is profitable while the shelf is empty, or the stockroom is full of a line that has not sold in months.",
+          "Combined software joins the two records at the point where the work happens. When a sale is entered, the stock count falls, the sale is posted to the accounts, and the cost of the goods sold is recorded against the same item. When a delivery arrives, the stock count rises and the supplier bill is raised in the same step. Nothing is typed twice, which removes the most common source of error in a small business: one system updated and the other forgotten.",
+          "The result is a single view of the business. A dashboard can show cash in the bank, money owed by customers, and the value of stock on hand in one place. That matters when decisions are close, such as whether to reorder a slow line or to put cash into a best seller. The software does not make the decision, but it stops the decision being made from a spreadsheet that was last updated on a Friday.",
+        ],
+      },
+      {
+        heading: "The features that matter most",
+        paragraphs: [
+          "Products in this area look alike on a feature list, so it helps to sort the features by what they do for you each day. The accounting side covers invoicing, expenses, bank reconciliation and tax, and it produces the profit and loss report and the balance sheet. The stock side covers quantities on hand, purchase orders, receiving, and the value of stock. The link between them is the costing: the price you paid for the goods that just sold, posted to the accounts as cost of goods sold.",
+          "Low stock alerts are the feature small businesses notice first. You set a reorder point for each item, and the software flags it when the count falls to that level. Some tools go further and raise a purchase order for the supplier. Either way, the point is the same: the alert arrives before the shelf is empty, not after a customer has asked for something you do not have.",
+          "Reports are where the combination pays for itself. A stock valuation report shows what your shelves are worth. A sales report shows which lines earn their space. A margin report shows the difference between what an item sells for and what it cost, after the cost of goods sold is posted. Read together, those three reports answer the question every owner asks at month end: is the money tied up in stock earning its keep.",
+        ],
+        subsections: [
+          {
+            heading: "On the accounting side",
+            paragraphs: [
+              "Look for invoicing that posts to the right accounts without manual journals, expense tracking that attaches receipts to purchases, and bank feeds that reconcile payments against invoices. Tax handling should match how your business actually sells, including sales tax on goods, and the reports should include a profit and loss statement and a balance sheet you can hand to your accountant.",
+            ],
+          },
+          {
+            heading: "On the stock side",
+            paragraphs: [
+              "Look for quantities that update with every sale, purchase and adjustment, not once a day. Barcode scanning helps at receiving and at the till, and it is worth reading our guide to barcode stock management software if scanning is part of your plan. If you handle food, medicine or anything with a use by date, batch and expiry tracking is not optional, and if you hold stock in more than one place, each location needs its own count.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The three common setups",
+        paragraphs: [
+          "The first setup is an accounting tool with stock tracking built in. QuickBooks Online and Xero both offer this, and for a business with a modest product list it is the simplest route. There is one login, one set of records and no sync to maintain. The trade off is depth: the stock features are designed around the books, so they cover quantities, reorder points and costing, but not the warehouse work such as bin locations, pick lists and serial numbers.",
+          "The second setup pairs a dedicated inventory tool with the accounting software you already use. Zoho Inventory works this way with Zoho Books, and it also connects to QuickBooks Online and Xero. The inventory tool handles the warehouse side, multiple locations, batch and serial tracking, and sales across several channels, and it sends invoices, bills and payments into the accounts. This suits a business that has outgrown the built in stock features but does not want to change its bookkeeping.",
+          "The third setup is an ERP system, where accounting, stock, ordering and often payroll and customer records run in one system built for a larger operation. This is the right answer for a business with several warehouses, manufacturing steps or complex pricing, and the wrong answer for a shop with two hundred products. It costs more, takes longer to set up, and needs someone on staff who owns it.",
+        ],
+      },
+      {
+        heading: "What the main tools actually cover",
+        paragraphs: [
+          "The names below are the ones most small businesses meet first. What each one covers, and where it stops, is worth knowing before a trial, because the limits only show up once your own products are loaded in.",
+        ],
+        subsections: [
+          {
+            heading: "QuickBooks Online",
+            paragraphs: [
+              "QuickBooks Online tracks inventory only on its Plus and Advanced plans. The lower plans, Simple Start and Essentials, do not include it, so a business that sells stock and sits on one of those plans has to upgrade or track stock elsewhere. On Plus and Advanced it keeps a running quantity on hand, values stock using first in, first out costing, supports reorder point alerts, and lets you raise purchase orders and run reports on best sellers, stock on hand and cost of goods.",
+              "What it does not do natively is the deeper warehouse work: no lot or batch numbers, no expiry dates, no serial numbers, no multi warehouse or bin level stock, and no bills of material for making things. Businesses that need those features usually keep QuickBooks as the accounting record and add a dedicated inventory app beside it.",
+            ],
+          },
+          {
+            heading: "Xero",
+            paragraphs: [
+              "Xero offers tracked inventory inside its accounting software. You set up items, record purchases as bills and sales as invoices, and Xero keeps the quantity and value of each item and works out the cost of goods sold using the weighted average cost method. It also handles purchase orders, inventory adjustments for damage or spoilage, and reports on stock value and turnover.",
+              "Xero's own guidance says tracked inventory suits businesses that sell finished goods by invoice, without a point of sale or an online shop, and it cannot track raw materials or work in progress. It caps tracked items at 4,000 finished items, and it does not offer batch or expiry tracking. A retailer with a till or an online store is usually better served by a connected inventory app.",
+            ],
+          },
+          {
+            heading: "Zoho Inventory and Zoho Books",
+            paragraphs: [
+              "Zoho splits the job in two. Zoho Books is the accounting side, with basic item tracking, and Zoho Inventory is the stock side, with several warehouses and bin locations, sales and purchase orders, packing and shipping, and serial and batch tracking. The two share items and contacts, so an invoice raised in Inventory lands in the books without retyping.",
+              "Zoho Inventory also connects to sales channels such as Shopify and Amazon, and it has a native integration with QuickBooks Online for businesses whose accounting already lives there. It is the most warehouse capable of the three options here, and the one to look at first if you hold stock in more than one place or sell through more than one channel.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Costs, trials and switching",
+        paragraphs: [
+          "Most of these tools charge a monthly subscription, and the price rises with the number of users, locations and orders. The subscription is only part of the cost. There is the time to load your products, set reorder points and train staff, and some tools charge extra for additional users, premium support or the warehouse features you may need a year from now. Ask for the full price of the setup you will actually use, not the starting plan.",
+          "A trial is worth more than a demonstration, but only if you run it with your own data. Load a real slice of your product list, including the awkward items: the ones sold in packs, the ones with variants, the ones that expire. Raise a purchase order, receive it, sell some of it, and run the stock valuation report. If the numbers do not match what you counted by hand, find out why before you commit.",
+          "Switching later is possible but never free. Moving products, open orders and stock values from one system to another takes a stocktake and a careful import, and the history rarely comes across cleanly. That is why the choice deserves a week of testing rather than an afternoon of reading feature lists. The cheapest tool is the one you do not have to replace in a year.",
+        ],
+      },
+      {
+        heading: "Questions to ask before you buy",
+        paragraphs: [
+          "Start with your own stock, not the seller's feature list. How many products do you hold, how many move on a busy day, and how many locations are involved. Then ask whether the plan you are buying includes the stock features at all, since QuickBooks and Xero both gate them by plan, and whether batch, expiry or multi location features cost extra.",
+          "Ask how your data comes out if you leave, in a standard export you can open yourself, and what happens if the internet connection drops mid shift. Ask how the tool handles the barcodes already on your products, and whether it works with the scanners or phones your staff already use. Finally, ask who on your team will own the system. Software that nobody owns ends up as a second spreadsheet, and the business is back where it started.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is accounting and stock management software?",
+        a: "It is software that keeps your accounts and your stock records in one system, so a sale or a delivery updates both at once. The accounts show the money, the stock record shows the goods, and the cost of the goods sold is posted to the books automatically.",
+      },
+      {
+        q: "Does QuickBooks track inventory on every plan?",
+        a: "No. In QuickBooks Online, inventory tracking is only available on the Plus and Advanced plans. Simple Start and Essentials do not include it, so you need to upgrade or track stock in a separate tool.",
+      },
+      {
+        q: "Does Xero track stock?",
+        a: "Yes, Xero has tracked inventory for finished goods sold by invoice. It records quantities and values, works out cost of goods sold by weighted average cost, and caps tracked items at 4,000. It does not cover raw materials, work in progress, or batch and expiry tracking.",
+      },
+      {
+        q: "Can I use separate inventory software with my accounting tool?",
+        a: "Yes, and it is a common setup. Zoho Inventory connects to Zoho Books, QuickBooks Online and Xero, sending invoices, bills and payments into the accounts. Other dedicated inventory tools offer similar connections, so check that the sync covers the documents you use.",
+      },
+      {
+        q: "How much does accounting and stock management software cost?",
+        a: "Most tools charge a monthly subscription that rises with users, locations and order volume, and some charge extra for warehouse features or premium support. The setup time and staff training are part of the real cost, so ask for the full price of the setup you will actually use before you buy.",
+      },
+    ],
+    sources: [
+      { label: "Stripe: Accounting and inventory management software, a guide", url: "https://stripe.com/en-si/resources/more/accounting-and-inventory-management-software-for-small-businesses-a-quick-guide" },
+      { label: "Intuit: Set up and track your inventory in QuickBooks Online", url: "https://quickbooks.intuit.com/learn-support/en-ca/help-article/inventory-management/set-track-inventory-quickbooks-online/L22FZLBGN_CA_en_CA" },
+      { label: "Xero Central: Options for managing inventory in Xero", url: "https://central.xero.com/0/article/Options-for-managing-inventory-in-Xero" },
+      { label: "Zoho Inventory: inventory management software", url: "https://www.zoho.com/inventory/?src=zblog-header" },
+      { label: "Unleashed: Xero inventory management guide, how it works and its limitations", url: "https://www.Unleashedsoftware.com/app-marketplace/xero-inventory-management/xero-inventory-management-guide/" },
+    ],
+    status: "published",
   }
 ];
 

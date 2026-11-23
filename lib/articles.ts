@@ -906,6 +906,111 @@ export const ARTICLES: Article[] = [
       { label: "Unleashed: Xero inventory management guide, how it works and its limitations", url: "https://www.Unleashedsoftware.com/app-marketplace/xero-inventory-management/xero-inventory-management-guide/" },
     ],
     status: "published",
+  },
+  {
+    slug: "kepler-communications-stock",
+    title: "Kepler Communications Stock: Can You Buy Shares in Kepler?",
+    excerpt:
+      "Kepler Communications is private, so no Kepler stock trades on any exchange. Accredited investors can buy shares on the secondary market.",
+    category: "stocks",
+    primaryKeyword: "Kepler Communications stock",
+    secondaryKeywords: ["Kepler Communications stock symbol", "is Kepler Communications publicly traded", "how to buy Kepler Communications stock", "Kepler Communications IPO"],
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    readingMinutes: 8,
+    image: "/images/kepler-communications-stock-satellite.svg",
+    imageAlt:
+      "Simple illustration of a small satellite with two solar panels above the Earth, beside a large question mark",
+    intro:
+      "No. Kepler Communications is a private company, so there is no Kepler Communications stock symbol and no shares trading on the NYSE, Nasdaq or any other exchange. The one route to owning shares runs through the secondary market for private company stock, and it is open only to accredited entities and institutional investors. Everyone else can only watch, and wait for an IPO that the company has not announced.",
+    takeaways: [
+      "Kepler Communications is private. There is no Kepler Communications stock symbol, no listing and no share price on any exchange.",
+      "The company has raised more than $200 million in equity, including a $92 million Series C in April 2023, and launched the first ten satellites of its optical relay network in January 2026.",
+      "Shares change hands only on the secondary market for private stock, through venues such as Nasdaq Private Market, and buying is limited to accredited entities and institutional investors.",
+      "There is no Kepler Communications IPO on file. The company has not announced a listing date, and similarly named companies such as Kepler Interactive and Kepler Computing are different businesses.",
+    ],
+    sections: [
+      {
+        heading: "Why people search for Kepler Communications stock",
+        paragraphs: [
+          "Kepler Communications launches satellites, signs government and defence contracts, and raises large funding rounds, so it looks like a public company to anyone who has not checked. The launch of the first ten satellites of its optical relay network in January 2026 brought a fresh wave of searches for a stock symbol and a share price.",
+          "Searchers usually want one of three things: a symbol, a current price, or a way to invest. The answer to the first two is no. The third has a real answer, but only for a small group of investors.",
+          "The confusion is easy to understand, because Kepler is a real operating business with real revenue and a growing satellite fleet. It also shares its name with other companies, which adds a second layer of mix-ups that we untangle later in this article.",
+        ],
+      },
+      {
+        heading: "What Kepler Communications is and who owns it",
+        paragraphs: [
+          "Kepler Communications Inc. is a satellite telecommunications company based in Toronto, Canada, with a presence in the United Kingdom and the United States. It was founded in 2015 by four graduate students from the University of Toronto, Wen Cheng Chong, Mark Michael, Mina Mitry and Jeffrey Osborne, who had worked together on the university aerospace team. Mina Mitry is the chief executive.",
+          "The company's stated mission is to build the internet for space. Its network, called the Kepler Network, is meant to move data between satellites in orbit and down to the ground in real time, using radio links and laser links. The services built on it include Kepler Connect for space communications, Kepler Compute for processing data on board the satellites, and hosted payloads, where a customer's equipment rides on a Kepler satellite.",
+          "Kepler started with small shoebox-sized CubeSats that offered store-and-forward connectivity for internet-of-things devices. Around 2020 it shifted focus to an optical relay network, with larger satellites that use lasers to pass data between spacecraft. The first generation constellation reached 21 satellites. The second generation Aether satellites weigh about 300 kilograms each, far larger than the CubeSats they replace.",
+          "Ownership sits with the founders, staff and venture investors. There are no public shareholders, no annual report for the public markets, and no obligation to publish quarterly results. That is the normal shape of a venture-backed private company, and it is why so little of its financial detail is public.",
+        ],
+      },
+      {
+        heading: "The funding rounds so far",
+        paragraphs: [
+          "Kepler's funding history is public because the company announced each round. It raised about $5 million in a seed round at Techstars, then $16 million in a Series A in 2018, led by Costanoa Ventures. The Series B followed in June 2021: $60 million, led by Tribe Capital, with Canaan Partners, IA Ventures and Costanoa Ventures taking part. That round brought total funding to $90 million and paid for the company's expansion into the United States.",
+          "The largest round came in April 2023, a $92 million Series C led by IA Ventures, with Costanoa Ventures, Canaan Partners, Tribe Capital, BDC Capital and other investors. After that round, total equity raised stood above $200 million. One of its investors, BDC Capital, says the company has raised more than $300 million to date, which points to further funding after the Series C that the company has not announced in the same detail.",
+          "That money paid for a real fleet and a real factory. Kepler builds its satellites in-house at a production facility in downtown Toronto, and at the time of the Series B it said it could manufacture ten satellites a month. The January 2026 launch put the first ten Aether satellites into orbit aboard a SpaceX Falcon 9 from Vandenberg Space Force Base in California, and the company says the satellites carry optical terminals and on-board computing that can process data in space.",
+        ],
+      },
+      {
+        heading: "Can you buy Kepler Communications stock?",
+        paragraphs: [
+          "Not through a broker, and not through a crowdfunding page. Kepler has never sold shares directly to the public, so there is no offering page for ordinary investors, and no brokerage app can sell you the stock because there is no listed stock to sell.",
+          "The route that does exist is the secondary market for private company stock. Nasdaq Private Market lists Kepler Communications and explains the terms plainly: the stock does not trade on public exchanges, and buying is limited to accredited entities and institutional investors. Employees and former employees can sell their shares through the same venue, but only with the company's approval, which Nasdaq Private Market manages on their behalf.",
+          "That is a very different picture from a company such as LiquidPiston, which has sold common stock directly to the public through crowdfunding rounds. Kepler has taken the venture capital path instead, raising from funds and institutions, so its shares sit with a small number of professional holders.",
+          "Be careful with anyone offering Kepler Communications stock through an ordinary broker, or promising a pre-IPO allocation before a listing is announced. There is no listed stock for a broker to sell, and private share sales to ordinary investors are restricted in the United States and Canada. If an offer sounds like a shortcut around those rules, it is worth treating as a warning sign rather than an opportunity.",
+        ],
+      },
+      {
+        heading: "Is a Kepler Communications IPO coming?",
+        paragraphs: [
+          "No. Kepler Communications has not filed for an initial public offering, and it has not announced a listing date. A Canadian company in its position would most likely list on the Toronto Stock Exchange or a US exchange, and a prospectus on SEDAR+ or SEC EDGAR would be the real signal. There is none.",
+          "The January 2026 launch and the company's growing defence and government work feed IPO talk, but talk is not a filing. A launch is a business milestone, not a step toward a listing, and the company has said nothing about going public.",
+          "Until a filing appears, the honest answer is that nobody outside the company knows if or when it will list. If you want to follow it, the places to watch are the company's own news page and the securities regulators, not a price page for a ticker that does not exist.",
+        ],
+      },
+      {
+        heading: "How to check any private company yourself",
+        paragraphs: [
+          "You do not need to take a website's word for whether a company is listed. Two free checks settle it for most companies. First, search the name in SEC EDGAR for US companies, or SEDAR+ for Canadian ones such as Kepler. Companies that sell shares to the public must register and file reports there. Second, check the NYSE, Nasdaq and Toronto Stock Exchange directories of listed companies. A company in none of those places, with no symbol assigned, is not traded on those exchanges.",
+          "Match the legal name, because Kepler is a shared name. Kepler Communications Inc. of Toronto builds satellite networks. Kepler Interactive, founded in London in 2020, is a video game publisher. Kepler Computing, founded in California in 2018, builds computer chips. All three are private, all three are unrelated, and reading about the wrong one is an easy mistake when search results mix them together.",
+          "A final caution concerns prices. Some data sites publish indicative estimates for private companies, and one put Kepler near $47 a share in late November 2026. Those figures are model-derived estimates based on private trades, not market prices, and different providers give different numbers. They tell you roughly where private holders have traded, not what a share is worth on any open market.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is the Kepler Communications stock symbol?",
+        a: "There is none. Kepler Communications is a private company, so no exchange has assigned it a symbol, and there is no Kepler ticker to look up.",
+      },
+      {
+        q: "Can I buy Kepler Communications stock on Robinhood or E*TRADE?",
+        a: "No. The shares are not listed on any exchange, so no brokerage app can sell them. The only route is the secondary market for private stock, which is limited to accredited entities and institutional investors.",
+      },
+      {
+        q: "How can accredited investors buy Kepler Communications stock?",
+        a: "Through a secondary market venue such as Nasdaq Private Market, which works with accredited entities and institutional investors. Employees and former employees can sell through the same venue, but only with the company's approval.",
+      },
+      {
+        q: "How much has Kepler Communications raised?",
+        a: "The company raised a $92 million Series C in April 2023, led by IA Ventures, which brought total equity raised above $200 million. One of its investors, BDC Capital, says the company has raised more than $300 million to date.",
+      },
+      {
+        q: "Will Kepler Communications go public with an IPO?",
+        a: "There is no filing and no date. The company has not announced a listing, and its announcements describe a business funded by venture capital while it builds out its satellite network. A prospectus on SEDAR+ or SEC EDGAR would be the first real sign.",
+      },
+    ],
+    sources: [
+      { label: "Nasdaq Private Market: Kepler Communications stock", url: "https://www.nasdaqprivatemarket.com/company/kepler-communications/" },
+      { label: "Kepler Communications: Kepler Successfully Launches First Tranche of Optical Relay Satellites, January 11, 2026", url: "https://kepler.space/kepler-successfully-launches-first-tranche-of-optical-relay-satellites/" },
+      { label: "Wikipedia: Kepler Communications", url: "https://en.wikipedia.org/wiki/Kepler_Communications" },
+      { label: "SpaceQ: Kepler Communications raises US$60 million in Series B funding, June 9, 2021", url: "https://spaceq.ca/kepler-communications-raises-us60-million-in-series-b-funding/" },
+      { label: "BDC: How Kepler Communications is building real-time space infrastructure", url: "https://www.bdc.ca/en/articles-tools/business-strategy-planning/innovate/kepler-communications-building-canada-space-infrastructure" },
+    ],
+    status: "published",
   }
 ];
 

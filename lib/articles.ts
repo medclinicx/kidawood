@@ -1011,6 +1011,120 @@ export const ARTICLES: Article[] = [
       { label: "BDC: How Kepler Communications is building real-time space infrastructure", url: "https://www.bdc.ca/en/articles-tools/business-strategy-planning/innovate/kepler-communications-building-canada-space-infrastructure" },
     ],
     status: "published",
+  },
+  {
+    slug: "pharmacy-stock-management-software",
+    title: "Pharmacy Stock Management Software: What It Does and How to Choose",
+    excerpt:
+      "Pharmacy stock software tracks every medicine by lot and expiry date, handles controlled drugs, and keeps the records inspectors ask for.",
+    category: "stock-management",
+    primaryKeyword: "pharmacy stock management software",
+    secondaryKeywords: ["pharmacy inventory management software", "pharmacy inventory software", "pharmacy stock control software"],
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    readingMinutes: 8,
+    image: "/images/pharmacy-stock-management-software.svg",
+    imageAlt:
+      "Simple illustration of pharmacy shelves holding medicine bottles, with a clipboard checklist and a barcode label",
+    intro:
+      "Pharmacy stock management software is the system a pharmacy uses to track every medicine it holds, from the moment a delivery is received to the moment a prescription is filled. It keeps a live count of each drug, follows every batch by lot number and expiry date, and holds the records that federal and state rules require for controlled substances and drug tracing. This guide explains what the software does, the features that matter, and the questions worth asking before you buy.",
+    takeaways: [
+      "Pharmacy stock is tracked as a live record moved by each dispensing event, with every batch followed by lot number and expiry date so the shortest dated stock is used first.",
+      "The features that matter most are perpetual inventory, lot and expiry tracking, controlled substance records, and electronic ordering with the wholesaler.",
+      "Federal rules shape the software: the Drug Supply Chain Security Act requires package level tracing, and the DEA requires a full controlled substance inventory at least every two years.",
+      "Most pharmacy stock software is a module inside a pharmacy management system such as PioneerRx, PrimeRx, Liberty Software or QS/1, and pricing is quoted for each pharmacy rather than listed.",
+    ],
+    sections: [
+      {
+        heading: "What makes pharmacy stock different",
+        paragraphs: [
+          "A pharmacy's stock is not like a shop's stock. Every item is a regulated medicine, and each bottle carries a lot number, an expiry date and a record of where it came from. Selling the wrong batch, or a bottle past its date, is a patient safety problem, not just a stock error.",
+          "The core idea is perpetual inventory: the count is a live record that moves with each event, not a number updated at the end of the day. When a prescription is filled, the count falls and the batch is recorded. When a delivery arrives, the count rises against the purchase order. PioneerRx, one of the systems independent pharmacies use most, works this way, with every fill, return and adjustment leaving a traceable record that staff can reconcile.",
+          "In practice, pharmacy stock software usually lives inside the pharmacy management system rather than as a separate tool. The same system that holds the patient record and the prescription also holds the stock, because the dispensing event is what moves the stock. PrimeRx describes its inventory the same way, as part of a system that tracks levels in line with state and federal requirements and sends electronic orders to wholesalers.",
+        ],
+      },
+      {
+        heading: "The features that matter most",
+        paragraphs: [
+          "Lot and expiry tracking sits at the top of the list. Each delivery is recorded by lot number and expiry date, and the system should dispense the shortest dated stock first, a practice known as first expiry, first out. It should also warn staff well before a batch expires, so the stock can be used or returned to the wholesaler while the supplier will still take it back.",
+          "Controlled substance handling is the second feature that sets pharmacy software apart. The system must keep controlled drugs in records that are separate from the rest of the stock, track each movement, and produce the counts an audit needs.",
+          "Ordering is the third feature. A good system raises purchase orders from low stock levels, sends them electronically to the wholesaler, and receives the delivery against the order so quantities and costs are checked at the door. PrimeRx shows cost comparisons between wholesalers and updates actual costs from the electronic files the wholesaler sends back.",
+        ],
+        subsections: [
+          {
+            heading: "Reports that pay for themselves",
+            paragraphs: [
+              "Three reports do most of the work. A stock valuation report shows what the shelves are worth. A slow moving stock report shows what has not sold and is tying up cash. A shrink report compares what the system says should be on hand with what a count finds, which is how diversion and errors surface.",
+            ],
+          },
+          {
+            heading: "Multi location and special inventories",
+            paragraphs: [
+              "A pharmacy that runs more than one shop, or serves a long term care home, or holds 340B stock, needs the system to keep those inventories apart. PrimeRx handles this with separate inventory buckets inside one system, each with its own rules. If your pharmacy holds stock for different purposes, ask whether the system keeps those buckets genuinely separate, because mixing them is a compliance problem as well as a counting problem.",            ],
+          },
+        ],
+      },
+      {
+        heading: "The compliance rules that shape the software",
+        paragraphs: [
+          "The Drug Supply Chain Security Act, a federal law from 2013, requires prescription drugs to be traced at the package level as they move from manufacturer to dispenser. Trading partners must exchange transaction information electronically, and each package carries a product identifier with its national drug code, serial number, lot number and expiry date. The enhanced requirements took effect in November 2023, and the FDA gave different trading partners different exemption end dates, with larger dispensers reaching theirs in November 2025.",
+          "Small dispensers have more time. The FDA has exempted small dispensers, and where applicable their trading partners, from certain requirements of the Act until November 27, 2027. A dispenser counts as small if, as of November 27, 2026, the company that owns it has 25 or fewer full time employees licensed as pharmacists or qualified as pharmacy technicians. No filing is needed to use the exemption, but a pharmacy buying software now should still ask how it handles transaction data, because the exemption ends and the record keeping duties stay in place throughout.",
+          "Controlled substances carry their own federal rule. Under 21 CFR 1304.11, every registrant must take a complete inventory of all controlled substances on hand when they first start dispensing them, and again at least every two years. Schedule I and II drugs need an exact count. Schedules III to V can be estimated, unless a container holds more than 1,000 dosage units. The records must be kept for two years, and records for Schedule I and II substances must be kept separately from all other pharmacy records.",
+          "State boards of pharmacy add their own rules on top of the federal ones, including how often a pharmacy must count stock and what an inspection will ask to see. Software cannot know your state's rules for you, but it should make the records easy to produce: dated counts, separate controlled substance lists, and an audit trail that shows who changed what and when.",        ],
+      },
+      {
+        heading: "The main systems pharmacies use",
+        paragraphs: [
+          "Most independent pharmacies in the United States run one of a small set of pharmacy management systems, and inventory is one module inside them. The four names that come up most often are PioneerRx, PrimeRx, Liberty Software and QS/1.",
+          "PioneerRx is the benchmark for independent pharmacies. Its inventory is built around the dispensing event, with lot and expiry tracking tied to how stock is actually used, and a mobile app that lets staff do cycle counts, check in wholesale shipments and manage bins from a phone.",
+          "PrimeRx, from Micro Merchant Systems, is the breadth play. It suits a pharmacy that is also a compounding lab, a long term care provider or a 340B contract pharmacy, because its separate inventory buckets keep those worlds apart in one system. Its inventory features include electronic ordering with wholesalers and cost comparisons between them.",
+          "Liberty Software, whose system is called PharmacyOne, pairs inventory control with point of sale and prescription management, and its perpetual stock updates are driven by dispensing transactions, with lot and expiry detail carried into reconciliation records. QS/1 is the name most often linked to controlled substance accounting. None of these vendors publish prices, so every quote depends on the size of the pharmacy, the number of locations and the modules chosen.",
+        ],
+      },
+      {
+        heading: "Costs, trials and switching",
+        paragraphs: [
+          "Pricing is almost always quoted rather than listed, and it usually takes the form of a monthly subscription that rises with the number of users, locations and modules. The subscription is only part of the cost. There is the time to load the product list, set reorder points and train staff, and some vendors charge separately for data migration, hardware such as scanners, or premium support.",
+          "A trial is worth more than a demonstration, but only if you run it with your own data. Load a real slice of your product list, including controlled drugs, short dated stock, and products sold in more than one pack size. Receive a delivery, fill some prescriptions, and run the expiry report and the stock valuation report. If the numbers do not match what you counted by hand, find out why before you commit.",
+          "Switching later is possible but never free. Moving products, open orders and stock values from one system to another takes a stocktake and a careful import, and the history rarely comes across cleanly. That is why the choice deserves a week of testing rather than an afternoon of reading feature lists. If your current system is also your dispensing system, switching stock software usually means switching the whole platform, so weigh that before you start.",
+        ],
+      },
+      {
+        heading: "Questions to ask before you buy",
+        paragraphs: [
+          "Start with your own pharmacy, not the seller's feature list. How many products do you hold, how many move on a busy day, how many locations are involved, and how much of the stock is controlled substances. Then ask whether the system tracks lots and expiry dates on every item, whether it warns you before stock expires, and whether it dispenses the shortest dated batch first.",          "Ask how the system handles the Drug Supply Chain Security Act, including receiving and storing transaction data from your wholesaler, and whether it can produce the records an inspector would ask for. Ask how it handles the biennial controlled substance inventory, and whether Schedule I and II records are kept separately as the rule requires. Ask how your data comes out if you leave, and what happens if the internet connection drops mid shift.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is pharmacy stock management software?",
+        a: "It is software that tracks every medicine a pharmacy holds, from delivery to dispensing. It keeps a live count of each drug, follows every batch by lot number and expiry date, and holds the records that federal and state rules require for controlled substances and drug tracing.",
+      },
+      {
+        q: "Can a pharmacy use generic inventory software instead?",
+        a: "It can for the counting, but generic software does not know about lot and expiry tracking by batch, controlled substance records, or the Drug Supply Chain Security Act. Most pharmacies run inventory as a module inside a pharmacy management system such as PioneerRx, PrimeRx, Liberty Software or QS/1, because the dispensing event is what moves the stock.",
+      },
+      {
+        q: "What does the Drug Supply Chain Security Act require a pharmacy's software to do?",
+        a: "The Act requires prescription drugs to be traced at the package level, with transaction information exchanged electronically between trading partners. Larger dispensers reached the end of their exemption in November 2025. Small dispensers, whose owning company had 25 or fewer full time pharmacists or pharmacy technicians as of November 27, 2026, are exempt from certain requirements until November 27, 2027, but the record keeping duties stay in place.",
+      },
+      {
+        q: "How often must a pharmacy count its controlled substances?",
+        a: "At least every two years, under 21 CFR 1304.11, with a complete inventory when the pharmacy first starts dispensing controlled substances. Schedule I and II drugs need an exact count. Schedules III to V can be estimated unless a container holds more than 1,000 dosage units. Records must be kept for two years, and Schedule I and II records must be kept separately.",
+      },
+      {
+        q: "How much does pharmacy stock management software cost?",
+        a: "Vendors do not publish prices. It is usually a monthly subscription quoted for each pharmacy, rising with users, locations and modules, plus the cost of setup, data migration and staff training. Ask for the full price of the setup you will actually use before you buy.",
+      },
+    ],
+    sources: [
+      { label: "FDA: Exemptions under the Drug Supply Chain Security Act", url: "https://www.fda.gov/drugs/drug-supply-chain-security-act-dscsa/exemptions-under-drug-supply-chain-security-act" },
+      { label: "PrimeRx: Pharmacy management software", url: "https://www.primerx.io/primerx-software" },
+      { label: "21 CFR 1304.11: Inventory requirements for controlled substances", url: "https://www.gpo.gov/fdsys/pkg/CFR-2011-title21-vol9/pdf/CFR-2011-title21-vol9-sec1304-11.pdf" },
+      { label: "Aeroz: DSCSA deadlines and exemption end dates", url: "https://aeroz.io/dscsa-deadlines" },
+    ],
+    status: "published",
   }
 ];
 

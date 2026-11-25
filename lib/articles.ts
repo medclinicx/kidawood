@@ -1125,6 +1125,120 @@ export const ARTICLES: Article[] = [
       { label: "Aeroz: DSCSA deadlines and exemption end dates", url: "https://aeroz.io/dscsa-deadlines" },
     ],
     status: "published",
+  },
+  {
+    slug: "wonder-restaurant-stock",
+    title: "Wonder Restaurant Stock: Can You Buy Shares in Wonder Group?",
+    excerpt:
+      "Wonder Group is still private, so there is no Wonder stock to buy. It filed confidentially for an IPO in November 2026. Here is what that means.",
+    category: "stocks",
+    primaryKeyword: "wonder restaurant stock",
+    secondaryKeywords: ["wonder group stock", "wonder stock symbol", "is wonder publicly traded", "wonder group IPO"],
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    readingMinutes: 8,
+    image: "/images/wonder-restaurant-stock-food-hall.svg",
+    imageAlt:
+      "Simple illustration of a food hall counter with dishes from several restaurants under heat lamps, beside a large question mark",
+    intro:
+      "Wonder Group is a private company, so there is no Wonder restaurant stock to buy and no ticker symbol to look up. The food hall and delivery business, founded in 2018 by Marc Lore, filed confidentially for an initial public offering on November 5, 2026, but it has not said how many shares it will sell, at what price, or when trading might start. Until a public filing appears, the only figures available are the private funding rounds the company has announced.",
+    takeaways: [
+      "Wonder Group is private. There is no Wonder stock, no ticker symbol, and no exchange where its shares trade.",
+      "Wonder filed a confidential draft registration statement for an IPO on November 5, 2026, but has disclosed no share count, price range or listing date.",
+      "Its July 2026 Series D raised $650 million at a $9 billion pre-money valuation, and the company has raised more than $3 billion in total since 2021.",
+      "Before an IPO, the only routes to Wonder shares are the private secondary market and employee stock, both of which carry strict limits and real risks.",
+    ],
+    sections: [
+      {
+        heading: "Is there a Wonder stock?",
+        paragraphs: [
+          "No. Wonder Group is a private company, and its shares do not trade on any public exchange. There is no ticker symbol, no listed price, and no way to buy Wonder stock through a brokerage account today.",
+          "That surprises some people, because Wonder is a large and visible business. Its food halls sit on busy streets across the Northeast, its Grubhub marketplace delivers food across the country, and its founder, Marc Lore, is well known from Diapers.com and Jet.com. Size and visibility do not make a company public, though. A company only becomes publicly traded when it completes an IPO and lists its shares, and Wonder has not done that yet.",
+          "Search results can mislead here. Some finance sites show a page for Wonder with a chart or a price, and some show tickers that belong to other companies with similar names. None of those is Wonder Group stock, because no such stock exists. If a site offers you Wonder shares at a set price, treat it with care and check the company's own announcements before acting.",
+        ],
+      },
+      {
+        heading: "What Wonder Group actually is",
+        paragraphs: [
+          "Wonder started in 2018 as a food delivery idea built around vans that cooked meals on the way to the customer. It has since become a food technology platform with several parts. Its food halls let customers order dishes from many restaurant brands in a single order, with the food cooked in one kitchen. Its marketplace, Grubhub, delivers food from hundreds of thousands of local restaurants. It also owns meal kit company Blue Apron and media company Tastemade, and it bought Sweetgreen's kitchen robotics unit, Spyce, to automate parts of food preparation.",
+          "The company said its footprint tripled from 46 locations to 140 between its May 2025 funding announcement and July 2026. It has also said it plans to open more than 100 locations in Texas by the end of 2027, and it is testing drone delivery there with Zipline.",
+          "Wonder is based in New York and run by founder and chief executive Marc Lore. Lore sold Diapers.com to Amazon and Jet.com to Walmart, and he has said openly for years that he wants to take Wonder public rather than sell it.",
+        ],
+      },
+      {
+        heading: "Funding history and valuation",
+        paragraphs: [
+          "Wonder has raised more than $3 billion from private investors since 2021. The rounds reported so far show a valuation that has climbed steeply. In May 2025 it raised $600 million at a valuation reported as more than $7 billion, led by existing shareholders including New Enterprise Associates, Accel, Google Ventures and Forerunner, with Amex Ventures among the strategic investors.",
+          "In July 2026 it raised $650 million in a Series D round at a $9 billion pre-money valuation, which puts the post-money value at $9.65 billion. Existing investors Accel, GV and New Enterprise Associates took part, and new investors included funds managed by AllianceBernstein, ARK Invest and Kayne Anderson Rudnick. Goldman Sachs, Jefferies and J.P. Morgan acted as placement agents.",
+          "A private valuation is not a share price. It is the value the company and its investors agreed for one funding round, based on the terms of that round. It does not tell you what the shares would be worth on a public exchange, and the IPO price, when it comes, could be higher or lower.",
+        ],
+        subsections: [
+          {
+            heading: "The funding rounds so far",
+            paragraphs: [
+              "The pattern is easy to follow. A $700 million round in March 2024, when Wonder had 11 brick and mortar locations, was followed by the $600 million round in May 2025 and the $650 million Series D in July 2026. Each round funded the same plan: more food halls, growth of the Grubhub marketplace, and investment in robotics and artificial intelligence.",
+              "Along the way, Wonder spent more than $1 billion on acquisitions. It bought Blue Apron for $103 million in 2023, Grubhub for $650 million in early 2025, and Sweetgreen's robotics unit for $186 million. It has also started buying individual restaurant brands, such as Blue Ribbon Fried Chicken and Mighty Quinn's BBQ, and adding them to its food halls.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The IPO filing: what we know and what we do not",
+        paragraphs: [
+          "On November 5, 2026, Wonder announced that it had confidentially submitted a draft registration statement to the US Securities and Exchange Commission for a proposed offering of Class A common stock. A confidential filing lets a company start the IPO process without publishing its financial statements yet. The public version of the filing, called an S-1, appears later, and that is when revenue, losses and the share count become public.",
+          "Wonder has not disclosed how many shares it plans to sell, the price range, the exchange it would list on, or the date trading might start. Reporting around the filing has pointed to a possible listing in 2027, but the company itself has not confirmed a date, and a confidential filing does not guarantee an IPO will happen at all. Companies sometimes withdraw or delay after filing.",
+          "What the filing does tell you is intent. Wonder has spent years saying it wants to go public, it hired a chief financial officer with IPO experience, and it added former Chipotle chief financial officer Jack Hartung to its board in 2026. The confidential filing is the concrete step that follows those preparations.",
+          "Until the public S-1 appears, there is no audited picture of Wonder's revenue or losses. Some reports have cited investor materials projecting revenue of just under $2 billion for 2026, but those figures are not audited disclosures, and the public filing will be the first reliable source.",
+        ],
+      },
+      {
+        heading: "Can you buy Wonder stock before the IPO?",
+        paragraphs: [
+          "For most people, the answer is no. Wonder shares are held by the company, its employees and its private investors. They do not trade on a public exchange, and a regular brokerage account cannot buy them.",
+          "There are two routes that exist in principle. The first is the private secondary market, where existing shareholders sometimes sell shares to other private investors through specialist platforms. These sales are usually limited to accredited investors, the prices are set by private negotiation, and the company often has a right to approve or block the sale. The second is employee stock, which only applies to people who work at Wonder or used to.",
+          "Both routes carry risks that do not apply to public shares. There is no public price to check, so you cannot tell easily whether the price offered is fair. The shares cannot be sold quickly if you need the money. And private company shares are a common target for scams, including websites that list a fake ticker or promise shares in a company that has not listed.",
+          "For most readers, the practical step is to wait for the public filing. When Wonder publishes its S-1, it will name the ticker, the exchange and the price range, and any brokerage account will then be able to buy the shares once trading starts. Until then, checking the SEC's EDGAR database for a Wonder filing is the most reliable way to follow the story.",
+        ],
+      },
+      {
+        heading: "What to watch next",
+        paragraphs: [
+          "The next public milestone is the S-1 filing itself. When it appears on EDGAR, it will show Wonder's revenue, losses, cash position and share structure for the first time. Watch for the ticker symbol, the exchange, the number of shares offered and the price range.",
+          "After the S-1, the usual steps are a roadshow, a priced offering and the first day of trading. The gap between a confidential filing and a listing is often a few months, but it can stretch longer if markets turn or the company needs more time.",
+          "A second thing to watch is the Texas expansion. Wonder has tied much of its growth story to opening more than 100 locations there by the end of 2027, and the pace of those openings will feature in the story it tells public investors.",
+          "If you want to follow the company without buying anything, the reliable sources are Wonder's own newsroom, its SEC filings on EDGAR, and established business reporting. Be wary of any site that claims to sell Wonder stock today, and check the ticker against an exchange directory before trusting it.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is Wonder publicly traded?",
+        a: "No. Wonder Group is a private company. Its shares do not trade on any stock exchange, and it has no ticker symbol. It filed confidentially for an IPO on November 5, 2026, but has not announced a listing date.",
+      },
+      {
+        q: "What is Wonder's stock symbol?",
+        a: "It does not have one yet. A ticker symbol is assigned when a company lists on an exchange, and Wonder has not listed. Any ticker you see attached to the name Wonder belongs to a different company or is made up.",
+      },
+      {
+        q: "When will Wonder IPO?",
+        a: "No date has been announced. Wonder submitted a confidential draft registration statement on November 5, 2026, and reporting has pointed to a possible listing in 2027, but the company has not confirmed timing, a share count or a price range. A confidential filing does not guarantee an IPO will happen.",
+      },
+      {
+        q: "How much is Wonder worth?",
+        a: "Its last funding round, a $650 million Series D in July 2026, was done at a $9 billion pre-money valuation, which implies a post-money value of about $9.65 billion. That is a private funding valuation, not a public market value, and the IPO price could differ.",
+      },
+      {
+        q: "Can I buy Wonder stock before the IPO?",
+        a: "Not through a regular brokerage account. The only routes are the private secondary market, which is generally limited to accredited investors and subject to company approval, and employee stock, which only applies to Wonder staff. For most people, the practical step is to wait for the public S-1 filing and the listing that follows.",
+      },
+    ],
+    sources: [
+      { label: "TechCrunch: Food delivery startup Wonder files for IPO as it explores its next big bite", url: "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/" },
+      { label: "Wonder via PR Newswire: Wonder Announces $650 Million Series D Round at a $9 Billion Pre-Money Valuation", url: "https://www.prnewswire.com/news-releases/wonder-announces-650-million-series-d-round-at-a-9-billion-pre-money-valuation-302827208.html" },
+      { label: "Restaurant Dive: Wonder raises $600M, will nearly double unit count in 2025", url: "https://www.restaurantdive.com/news/wonder-raises-600-million-7-billion-valuation/747284/" },
+      { label: "QSR Magazine: Wonder Raises $650 Million at $9 Billion Valuation", url: "https://www.qsrmagazine.com/story/wonder-raises-650-million-at-9-billion-valuation/" },
+    ],
+    status: "published",
   }
 ];
 

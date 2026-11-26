@@ -1239,6 +1239,116 @@ export const ARTICLES: Article[] = [
       { label: "QSR Magazine: Wonder Raises $650 Million at $9 Billion Valuation", url: "https://www.qsrmagazine.com/story/wonder-raises-650-million-at-9-billion-valuation/" },
     ],
     status: "published",
+  },
+  {
+    slug: "grocery-stock-management-software",
+    title: "Grocery Stock Management Software: What It Does and How to Choose",
+    excerpt:
+      "Grocery stock software tracks perishable goods by lot and expiry date, rotates stock shortest dated first, and keeps the records a recall needs.",
+    category: "stock-management",
+    primaryKeyword: "grocery stock management software",
+    secondaryKeywords: ["grocery inventory management software", "grocery store inventory software", "supermarket inventory software"],
+    publishedAt: "2026-11-26",
+    updatedAt: "2026-11-26",
+    readingMinutes: 10,
+    image: "/images/grocery-stock-management-software.svg",
+    imageAlt:
+      "Simple illustration of grocery shelves holding fruit and packaged goods, with a checklist and a barcode label",
+    intro:
+      "Grocery stock management software is the system a grocery store uses to track everything it holds, from canned goods with a two year shelf life to milk that must sell within days. It keeps a live count of each product, follows perishable stock by lot and expiry date, and raises orders when stock runs low.",
+    takeaways: [
+      "Grocery stock is tracked by lot and expiry date, not just by quantity, because so much of it is perishable and the shortest dated stock has to sell first.",
+      "The features that matter most are lot and expiry tracking, first-expired first-out rotation, expiry alerts, and purchase orders tied to real sales.",
+      "The FDA food traceability rule requires lot level records for high risk foods such as leafy greens, shell eggs and soft cheeses, with enforcement held off until July 20, 2028.",
+      "Most grocery stock software is part of a point of sale system such as Lightspeed, or a grocery specific platform such as ECRS CATAPULT, and pricing is quoted for each store rather than listed.",
+    ],
+    sections: [
+      {
+        heading: "What makes grocery stock different",
+        paragraphs: [
+          "A grocery store holds thousands of products with very different shelf lives on the same shelves. A can of soup may sit for two years, a carton of milk has days, and fresh produce can turn in less than a week. A stock count that ignores expiry dates is not enough here, because the question is not only how many units are on hand, but how long each one can still be sold.",
+          "The core idea is perpetual inventory: the count is a live record that moves with each event, not a number updated at the end of the day. When a customer buys a product at the till, the count falls. When a delivery arrives at the back door, the count rises against the purchase order. Barcode scanning at both points keeps the record honest, so a discrepancy can be traced rather than guessed at.",
+          "Grocery stock also includes goods sold by weight. Produce, meat and deli items are priced by the pound, and the weight received is rarely the weight ordered, so a system built for groceries records the actual weight of each delivery. Shrink, the gap between what the system says should be on hand and what a count finds, comes from spoilage, damaged packaging, theft and scanning errors at the till. A good system reports where the losses happen, so the owner can see whether the problem is a cold case that runs warm, a product ordered in too large a quantity, or a till where items are regularly missed.",
+        ],
+      },
+      {
+        heading: "The features that matter most",
+        paragraphs: [
+          "Lot and expiry tracking sits at the top of the list. Each delivery is recorded by lot number and expiry date, and the system should warn staff well before a batch expires, so the stock can be moved to the front, marked down or returned to the supplier while there is still time. Some systems suggest markdowns from the sales rate and the days left, which beats a manager walking the aisles with a pricing gun and a guess.",
+          "Ordering is the second feature. A good system raises purchase orders from low stock levels, sends them to the supplier, and receives the delivery against the order so quantities and prices are checked at the door. Lightspeed, one of the systems grocery stores use most, works this way, with real time stock tracking, reorder points and built in purchase orders.",
+          "The third feature is the link between the shop floor and the online store. Many grocery stores now sell online for pickup or delivery, and those orders draw from the same stock as the shelves. If the online store shows its own count, it will sell items that are already gone. The stock record has to be one record, shared by the tills, the website and the stockroom.",
+        ],
+        subsections: [
+          {
+            heading: "First-expired first-out, not first-in first-out",
+            paragraphs: [
+              "Most inventory software rotates stock first in, first out, which means the oldest delivery sells first. That is not enough for perishable goods. A delivery received last week can expire sooner than one received two weeks ago, because shelf life depends on the production date, not the delivery date. First-expired first-out, known as FEFO, picks the batch with the nearest expiry date first, whatever order the batches arrived in.",
+              "FEFO is what keeps short dated stock from becoming a write off. It only works if the system knows the expiry date of every batch, which is why lot level expiry tracking and FEFO belong together. When you compare systems, ask for a demonstration with two batches of the same product that arrived on different days with different expiry dates, and watch which one the system picks first.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Traceability and the food safety rule",
+        paragraphs: [
+          "The FDA food traceability rule, issued under section 204 of the Food Safety Modernization Act, requires businesses that manufacture, process, pack or hold foods on the Food Traceability List to keep lot level records at defined points in the supply chain, known as Critical Tracking Events. The list covers high risk foods such as soft cheeses, shell eggs, nut butters, leafy greens and tomatoes.",
+          "For each event, the business must record key data elements that link the lot code, the product, the quantity, the locations and the dates, and it must be able to hand the FDA an electronic sortable spreadsheet of those records within 24 hours of a request. Records must be kept for two years. The rule was published in November 2022 with an original compliance date of January 20, 2026. The FDA has since proposed moving that date by 30 months to July 20, 2028, and Congress has barred the agency from using appropriated funds to enforce the rule before that same date. The requirements have not changed, so the extra time is for building the record keeping, not for ignoring it.",
+          "A grocery store that only sells food at retail is largely outside the rule, because retail food establishments are exempt from most of its requirements. But a store that packs produce, runs a deli that transforms listed foods, or operates a warehouse that ships to other stores can fall inside it, and the distribution centres that supply grocery stores are covered. Even where the rule does not apply, lot traceability is what makes a recall manageable: a store that can find every affected lot by code can pull it in an hour, while a store that cannot may have to pull the whole product line.",
+        ],
+      },
+      {
+        heading: "The main systems grocery stores use",
+        paragraphs: [
+          "Most grocery stock software arrives as part of a point of sale system rather than as a separate tool, because the sale at the till is what moves the stock. Lightspeed Retail is the name that comes up most often for independent and mid sized grocery stores. It pairs the till with real time inventory tracking, reorder points, purchase orders, barcode scanning and multi location stock views, and it handles online ordering for pickup and delivery from the same stock record. Its grocery page also notes age verification for alcohol sales and bottle fee charges. One trade off to check in a trial is that weighted goods need careful item setup, and lot and expiry tracking is less deep than in a system built for perishables.",
+          "ECRS CATAPULT is the grocery specific option. Built for supermarkets rather than general retail, its expiry handling shapes receiving and stockroom work, so short dated stock is flagged when it arrives rather than discovered later on the shelf.",
+          "Beyond the till, there are inventory platforms built for food businesses and distributors. DOSS, Cin7 Core, Fishbowl, NetSuite and Aptean all offer lot tracking with expiry date fields and FEFO picking, and they suit a grocery business that also runs a warehouse, a central kitchen, or several stores supplied from one depot. Fishbowl fits a small business on QuickBooks that wants basic lot tracking without moving to a full ERP system. NetSuite and Aptean are the deeper end, covering catch weight and full traceability, but they take longer to set up and usually need an implementation partner. None of these vendors publish prices, so every quote depends on the size of the store, the number of locations and the modules chosen.",
+        ],
+      },
+      {
+        heading: "Costs, trials and switching",
+        paragraphs: [
+          "Pricing is almost always quoted rather than listed, usually as a monthly subscription that rises with registers, locations and users. The subscription is only part of the cost. There is the time to load the product list, set reorder points and train staff, plus hardware such as scanners, scales and label printers, and data migration if you are moving from another system.",
+          "A trial is worth more than a demonstration, but only if you run it with your own data. Load a real slice of your product list, including weighted items and short dated stock. Receive a delivery, sell through the till, run the expiry report, and count one aisle by hand. If the numbers do not match what you counted, find out why before you commit.",
+          "Switching later is possible but never free. Moving products, open orders and stock values from one system to another takes a stocktake and a careful import, and the history rarely comes across cleanly. That is why the choice deserves a week of testing rather than an afternoon of reading feature lists. If your current system is also your till system, switching stock software usually means switching the whole platform, so weigh that before you start.",
+        ],
+      },
+      {
+        heading: "Questions to ask before you buy",
+        paragraphs: [
+          "Start with your own store, not the seller's feature list: how many products you hold, how many move on a busy day, how many locations are involved, and how much of the range is perishable. Then ask whether the system tracks lots and expiry dates on every item, whether it rotates stock first-expired first-out, and whether it warns you before stock expires and suggests a markdown while the stock can still be sold.",
+          "Ask how the system handles weighted goods, from receiving to the till, and whether online orders for pickup and delivery draw from the same stock record as the shelves. Ask how it handles the FDA traceability rule for the listed foods you carry, and whether it can produce the lot records and the sortable spreadsheet the rule calls for. Ask how your data comes out if you leave, and what happens at the till if the internet connection drops mid shift.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is grocery stock management software?",
+        a: "It is software that tracks everything a grocery store holds, from delivery to sale. It keeps a live count of each product, follows perishable stock by lot number and expiry date, raises purchase orders when stock runs low, and produces the reports that show stock value, slow movers and waste.",
+      },
+      {
+        q: "What is FEFO and why does it matter for groceries?",
+        a: "FEFO stands for first-expired first-out. It means the batch with the nearest expiry date sells first, whatever order the batches arrived in. It matters because shelf life depends on the production date, not the delivery date, so a first-in first-out system can leave short dated stock on the shelf until it has to be thrown away.",
+      },
+      {
+        q: "Does the FDA food traceability rule apply to grocery stores?",
+        a: "Mostly it applies to the supply chain behind the store, not the shop floor. Retail food establishments are exempt from most of its requirements, but a store that packs produce, runs a deli that transforms listed foods, or operates a warehouse can be covered. The compliance date has been proposed to move to July 20, 2028, and Congress has barred enforcement before that date, but the record keeping requirements have not changed.",
+      },
+      {
+        q: "Can a small grocery store use generic inventory software instead?",
+        a: "It can for the counting, but generic software does not know about lot and expiry tracking, FEFO rotation, weighted goods, or food traceability records. Most grocery stores run inventory as part of a point of sale system such as Lightspeed, or a grocery specific platform such as ECRS CATAPULT, because the sale at the till is what moves the stock.",
+      },
+      {
+        q: "How much does grocery stock management software cost?",
+        a: "Vendors do not publish prices. It is usually a monthly subscription quoted for each store, rising with registers, locations and users, plus setup, data migration, hardware such as scanners and scales, and staff training. Ask for the full price of the setup you will actually use before you buy.",
+      },
+    ],
+    sources: [
+      { label: "FDA: FSMA Final Rule on Requirements for Additional Traceability Records for Certain Foods", url: "https://www.fda.gov/food/food-safety-modernization-act-fsma/fsma-final-rule-requirements-additional-traceability-records-certain-foods" },
+      { label: "Lightspeed: Grocery store POS and inventory management", url: "https://www.lightspeedhq.com/pos/retail/grocery-store-pos/" },
+      { label: "DOSS: Best Food Inventory Management Software for Perishable Goods (2026)", url: "https://www.doss.com/resources/trends/best-food-inventory-management-software-for-perishable-goods-tracking" },
+      { label: "OFW Law: FSMA 204 Delay and the Traceability Duties That Remain", url: "https://ofwlaw.com/fsma-204-food-traceability-rule/" },
+    ],
+    status: "published",
   }
 ];
 

@@ -1349,6 +1349,110 @@ export const ARTICLES: Article[] = [
       { label: "OFW Law: FSMA 204 Delay and the Traceability Duties That Remain", url: "https://ofwlaw.com/fsma-204-food-traceability-rule/" },
     ],
     status: "published",
+  },
+  {
+    slug: "how-to-buy-rad-intel-stock",
+    title: "How to Buy RAD Intel Stock: Private Shares, the RADI Ticker and the CrowdSAFE Route",
+    excerpt:
+      "RAD Intel is still a private company, so you cannot buy its stock on an exchange. The only route open now is its Regulation CF CrowdSAFE offering.",
+    category: "stocks",
+    primaryKeyword: "how to buy rad intel stock",
+    secondaryKeywords: ["rad intel stock", "RAD Intel stock price", "RADI stock ticker", "RAD Intel IPO"],
+    publishedAt: "2026-11-27",
+    updatedAt: "2026-11-27",
+    readingMinutes: 8,
+    image: "/images/how-to-buy-rad-intel-stock.svg",
+    imageAlt:
+      "Simple illustration of a laptop showing a rising chart line beside a large question mark",
+    intro:
+      "RAD Intel is still a private company, so there is no RAD Intel stock trading on the Nasdaq or the New York Stock Exchange. The company has reserved the ticker RADI, but that reservation is not a listing, and no IPO date has been announced. The only way to invest today is through the company's own Regulation CF offering, which sells a CrowdSAFE rather than shares.",
+    takeaways: [
+      "RAD Intel is private. You cannot buy its stock through a brokerage account, and the reserved RADI ticker is not a listing.",
+      "The current route is a Regulation CF CrowdSAFE on the company's investor portal, with a $1,000 minimum and a $300 million valuation cap.",
+      "A CrowdSAFE is not stock today. It converts into shares only if a triggering event happens, such as a priced funding round, an acquisition or an IPO.",
+      "CrowdSAFE investments are illiquid, carry no maturity date and can lose everything, so read the Form C on SEC EDGAR before putting money in.",
+    ],
+    sections: [
+      {
+        heading: "Can you buy RAD Intel stock on the stock market?",
+        paragraphs: [
+          "You cannot buy RAD Intel stock on the stock market today. RAD Intel is the trading name of Rad Technologies Inc., a private company founded in 2018, and its shares do not trade on the Nasdaq, the New York Stock Exchange, or any other exchange. A search for RAD Intel in a brokerage app will return nothing to buy.",
+          "The confusion comes from the ticker. RAD Intel has reserved RADI as its proposed Nasdaq symbol, and that reservation is widely quoted online as if a listing were already in place. The company itself is clear on this point: reserving a ticker is an administrative step only. It is not an application for listing, not an approval, and not a sign that the shares will trade on Nasdaq. No IPO date has been announced.",
+          "That leaves two things to watch for. First, any website or social media post that shows a live price for RADI is showing something else, or nothing at all, because there is no public market to price the shares. Second, anyone offering to sell you RAD Intel shares outside the company's own offering should be treated with care. The only documented route in is the crowdfunding offering described below.",
+        ],
+      },
+      {
+        heading: "What RAD Intel does",
+        paragraphs: [
+          "RAD Intel sells AI marketing intelligence. Its platform studies content, creators and placements across brands and social channels, and tries to predict which combinations will perform before the money is spent. The name RAD stands for Remove All Doubt, which sums up the pitch: brands spend heavily on creators and media without knowing in advance what will land.",
+          "The customer list is the strongest part of the story. The company says it works with more than 50 enterprise clients, signed more than 200 sales contracts in 2026 so far, and holds preferred partner status across Omnicom agencies in 2026 after scaling from a pilot that began in October 2023. Its investor page also names recurring seven figure contracts with Fortune 1000 brands across gaming, entertainment, fashion and healthcare.",
+          "In February 2026 the company formalised a holding company structure. Two standalone operating businesses, RAD Amplify for managed marketing services and Lickly for mid market software, sit under the parent, and the parent holds the intellectual property, the data and the platform behind them. The strategy, which the company calls AIBO, is to buy founder led marketing companies and run them on that shared AI layer. The first such deal was a majority acquisition of AV Communications, a multicultural marketing agency, completed in June 2026.",
+        ],
+      },
+      {
+        heading: "The route open today: a Regulation CF CrowdSAFE",
+        paragraphs: [
+          "The route open today runs through the company's own investor portal at invest.radintel.ai, using DealMaker Securities LLC as the intermediary. It is a Regulation CF offering, which is the SEC rule that lets a private company raise money from the general public through a registered intermediary, with the offering statement filed on Form C.",
+          "This round does not sell shares. It sells a CrowdSAFE, a simple agreement for future equity, and the difference matters enough to have its own section below. The minimum investment is $1,000, plus a 2 percent processing fee capped at $200, so the smallest commitment costs $1,020 in total. The CrowdSAFE carries a $300 million post money valuation cap, and the company adds a bonus to the SAFE principal that can reach 50 percent, including an 18 percent time bonus for investments funded by December 10, 2026. The offering deadline in the Form C is April 30, 2027.",
+          "The filing history shows the round is already moving. The Form C was filed on October 9, 2026 and amended on October 28, and a progress update filed on November 17 said the offering had reached its target amount on November 5, having accepted $283,254. That is a small sum next to the maximum of about $3.95 million, so the round stays open until the deadline or until the company closes it.",
+          "The practical steps are simple. Read the Form C on SEC EDGAR before anything else, starting with the risk factors and the CrowdSAFE terms. Check that DealMaker Securities LLC is the intermediary named in the filing, and confirm the firm on FINRA BrokerCheck. Then invest only through the link on the company's own investor portal, never through a third party who contacts you first.",
+        ],
+      },
+      {
+        heading: "What a CrowdSAFE is, and what it is not",
+        paragraphs: [
+          "A CrowdSAFE is a contract, not a share. You pay money now, and the agreement is designed to convert into equity later, when a triggering event happens. The usual triggers are a priced financing round, an acquisition, or an IPO. The price you convert at is set by the valuation cap, which in this round is $300 million, and any bonus is added to your principal before conversion.",
+          "What it does not give you is a timetable. A CrowdSAFE has no maturity date, and the company is under no duty to repay you by any particular date. If no triggering event ever happens, the agreement may never convert, and you could lose some or all of your money. Even if it does convert, the shares you receive are private shares with transfer restrictions, so conversion does not create something you can sell.",
+          "The last round was different, which is worth knowing if you compare prices online. In July 2026 the company ran a Regulation CF offering of actual Class B common stock at $1.05 per share, with a minimum of $999.60. That round closed having raised $1,048,901.42. The company says its offering price rose from $0.50 to $1.05 over the two years to 2026, and that more than 30,000 investors have put in more than $88 million across its rounds. Those figures come from the company itself, and the valuation is set by the company, so treat them as its own account rather than a market price.",
+        ],
+      },
+      {
+        heading: "Checks to run before you invest",
+        paragraphs: [
+          "Start with the filing, not the marketing page. The Form C for the current round is on SEC EDGAR under Rad Technologies Inc., CIK 1810055, and it carries the risk factors, the use of funds, and the full CrowdSAFE terms. The company's most recent annual report on Form C-AR showed revenue of $1.2 million and a net loss of $8.6 million, which is normal for a company at this stage but worth knowing before you invest.",
+          "Check the intermediary and the channel. The offering runs through DealMaker Securities LLC, and the payment route should start at invest.radintel.ai. If someone offers you RAD Intel shares by message, email, or a different website, stop and compare what they are offering against the Form C. Secondary marketplaces for private shares do exist, and shares in private companies sometimes change hands there, but there is no verified listing for RAD Intel shares on any such platform, so do not assume one is genuine.",
+          "Finally, weigh the wait. Crowdfunding investments in private companies are long term by nature. There may be years between your investment and any event that creates a return, and there may never be one. If that wait, and the chance of losing the money, does not fit what you can afford, the right move is to leave it alone and watch the company's filings instead. Nothing here is financial advice, and a licensed adviser can help you judge whether a private offering fits your position.",
+        ],
+        subsections: [
+          {
+            heading: "A short checklist before you invest",
+            paragraphs: [
+              "Read the Form C risk factors and the CrowdSAFE terms in full. Confirm DealMaker Securities LLC is the intermediary named in the filing and check the firm on FINRA BrokerCheck. Make sure you understand the $300 million valuation cap, the bonus terms, and the fact that the agreement has no maturity date. Confirm the investment is money you can afford to lose, and keep a copy of every document you sign.",
+            ],
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is RAD Intel publicly traded?",
+        a: "No. RAD Intel is a private company, and its shares do not trade on any exchange. It has reserved the Nasdaq ticker RADI, but the company says that is an administrative step only, not a listing, and no IPO date has been announced.",
+      },
+      {
+        q: "What is the RAD Intel stock price?",
+        a: "There is no public stock price because there is no public market. The last round that sold actual shares, a Regulation CF offering in July 2026, priced Class B common stock at $1.05 per share. The current round sells a CrowdSAFE with a $300 million valuation cap, which is not a share price.",
+      },
+      {
+        q: "What is the minimum investment in RAD Intel?",
+        a: "The current Regulation CF CrowdSAFE has a $1,000 minimum, plus a 2 percent processing fee capped at $200, so the smallest commitment costs $1,020 in total. The offering runs through DealMaker Securities LLC on the company's investor portal at invest.radintel.ai.",
+      },
+      {
+        q: "What happens to a CrowdSAFE if RAD Intel never goes public?",
+        a: "A CrowdSAFE can also convert on a priced financing round or an acquisition, not only on an IPO. But if no triggering event ever happens, it may never convert. CrowdSAFEs have no maturity date and no guaranteed return, so an investor could lose some or all of the money.",
+      },
+      {
+        q: "Can I sell my RAD Intel investment later?",
+        a: "Not easily. CrowdSAFEs and the private shares they convert into carry transfer restrictions and there is no public market for them. Secondary marketplaces sometimes list shares in private companies, but there is no verified listing for RAD Intel shares on any such platform, so expect to hold for years, if a sale is possible at all.",
+      },
+    ],
+    sources: [
+      { label: "RAD Intel: Invest in RAD Intel, Regulation CF CrowdSAFE", url: "https://invest.radintel.ai/" },
+      { label: "SEC EDGAR: Rad Technologies Inc. Form C offering statement, July 2026", url: "https://www.sec.gov/Archives/edgar/data/1810055/000149315226037428/formca.htm" },
+      { label: "SEC EDGAR: Rad Technologies Inc. filings, CIK 1810055", url: "https://www.sec.gov/edgar/browse/?CIK=1810055" },
+      { label: "PitchBook: RAD Intel company profile", url: "https://pitchbook.com/profiles/company/433131-40" },
+      { label: "Wefunder: RAD Intel updates, team and funding progress", url: "https://wefunder.com/rad/details" },
+    ],
+    status: "published",
   }
 ];
 

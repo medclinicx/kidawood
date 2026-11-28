@@ -1453,6 +1453,117 @@ export const ARTICLES: Article[] = [
       { label: "Wefunder: RAD Intel updates, team and funding progress", url: "https://wefunder.com/rad/details" },
     ],
     status: "published",
+  },
+  {
+    slug: "jewellery-stock-management-software",
+    title: "Jewellery Stock Management Software: What It Does and How to Choose",
+    excerpt:
+      "Jewellery stock software tracks each piece by serial number, stone and certificate, and keeps memo, consignment and owned stock on separate books.",
+    category: "stock-management",
+    primaryKeyword: "jewellery stock management software",
+    secondaryKeywords: ["jewelry inventory management software", "jewellery inventory software", "jewelry store management software"],
+    publishedAt: "2026-11-28",
+    updatedAt: "2026-11-28",
+    readingMinutes: 9,
+    image: "/images/jewellery-stock-management-software.svg",
+    imageAlt:
+      "Simple illustration of a jewellery display case holding rings and a necklace, with a checklist and a barcode tag",
+    intro:
+      "Jewellery stock management software is the system a jewellery store uses to track every piece it holds, from delivery to sale. Each piece gets its own record with its metal, stone, certificate, vendor, cost and location, and the system also handles repairs, custom work, appraisals, memo stock and consignment. It answers the question a spreadsheet cannot: what exactly is in the cases, what is it worth, and what has sat too long.",
+    takeaways: [
+      "Jewellery stock is tracked piece by piece, not by quantity, because two rings with the same style number can hold different stones, certificates, costs and prices.",
+      "Memo and consignment stock must sit on separate books from owned stock, or the value of what the store actually owns gets mixed up with goods it only holds.",
+      "Repairs, custom work, appraisals, layaway and trade-ins belong in the same system as the stock record, tied to the piece and the customer.",
+      "Cloud systems suit owners who check stock away from the shop, while on-premise systems such as The Edge suit stores that want the data on their own server. Most vendors quote prices rather than list them, so compare the full cost, not the starting price.",
+    ],
+    sections: [
+      {
+        heading: "What makes jewellery stock different",
+        paragraphs: [
+          "A jewellery store holds a small number of items worth a large amount of money. A single display case can hold more value than a whole aisle of a grocery store, and each piece is different. Two rings can share a style number and still differ in stone, carat weight, certificate and cost. A stock system that only counts quantities per product line cannot tell them apart, and that gap is where mistakes and losses start.",
+          "The answer is serialized tracking. Every piece gets its own record, with its serial number, metal type and weight, stone details covering carat, cut, colour and clarity, the certificate number, the vendor who supplied it, its cost and its price, and where it sits in the store. When the piece sells, that record closes with the sale. When it moves to another case or another branch, the record follows it. Nothing is left to a paper tag or a memory.",
+          "Jewellery stock also moves in ways other retail stock does not. A piece can go out on memo to a customer or a sales agent, sit on consignment from a maker, go to the bench for a repair or a resize, or come back as a trade-in against a new purchase. Each of those states changes who owns the piece and what it is worth to the store, so the system has to track the state as well as the piece. A count that ignores those states will overstate what the store owns and understate what it owes.",
+        ],
+      },
+      {
+        heading: "The features that matter most",
+        paragraphs: [
+          "The first feature to check is the depth of the piece record. It should hold the stone details, the certificate, the vendor, the cost and the location, and it should keep the sales history with the piece once it sells. Custom fields matter here, because a store that sells watches or loose stones needs different fields from a store that sells only finished rings. Ask for a demonstration with two pieces that share a style number and different stones, and watch whether the system keeps them apart.",
+          "The second feature is the link between stock and service work. Repairs, custom commissions, appraisals and sizing all pass through a jewellery store every week, and each job belongs to a piece and a customer. A system that handles them in the same place can take in a repair at the counter, track it to the bench, tell the customer it is ready, and link the charge to the right record. When repairs live in a separate book or a spreadsheet, jobs go missing and customers wait without an answer.",
+          "The third feature is counting. A jewellery stocktake is slow work when every piece has to be checked by hand, so barcode and RFID scanning matter more here than in most shops. RFID tags let staff count a whole case without handling each piece, and the count can run while the shop trades. The system should also report on age and margin, so the owner can see which pieces have sat too long, which vendors sell, and where the money is tied up. That reporting is what turns a stock list into buying decisions.",
+        ],
+        subsections: [
+          {
+            heading: "Memo, consignment and owned stock stay separate",
+            paragraphs: [
+              "Memo and consignment deserve their own note, because they are the easiest place for a stock value to go wrong. Memo stock is goods a supplier or a customer holds on approval, and consignment stock is goods a maker leaves in the store to sell on their behalf. The store does not own either one, so neither belongs in the owned stock value, and the costs must never mix.",
+              "A jewellery system should keep the three books apart by design, with separate reports for each, and it should show which pieces are out on memo and when they are due back. If a system lumps them together, the owner will think the store holds more value than it does, and a stocktake will count goods that are not the store's to sell.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The main systems jewellers use",
+        paragraphs: [
+          "The Edge, from Abbott Jewelry Systems, is the system most independent jewellers already know. The company says more than 4,000 active stores use it across more than 16,000 workstations, and it has served the trade for more than 24 years. It covers point of sale, inventory, repairs and custom work, appraisals, layaway and trade-ins in one platform, with RFID support for counting and detailed reporting on sales and inventory age. It runs on Windows machines with the data on a server in the store, and pricing comes through a quote rather than a published price. A cloud version is now in beta, according to a September 2026 comparison by Jewel360, but the established product is the on-premise one.",
+          "Jewel360 is the cloud option built for jewellery from the start. Each serialized piece carries its stone, certificate, vendor, cost, location and sales history from receiving to the display case, and owned, memo and consignment stock stay on separate books. It also handles repairs, custom work and appraisals, connects to an online store, and integrates with suppliers and services such as Stuller, GIA, Geller's Blue Book and Jewelers Mutual. All plans include unlimited users and products. Pricing is quoted through its build and price tool rather than listed.",
+          "Lightspeed is the general retail platform on the list, and it suits a jeweller who wants one system for the shop, the website and several locations. Its jewelry pages describe real time tracking of high value pieces across locations, serialized stock with barcodes and RFID, repair and custom work orders, deposits and layaway, and customer profiles with loyalty. Because it was not built for jewellery, the stone level detail and the memo handling need testing in a trial before you commit. Its published plans, as listed in Jewel360's September 2026 comparison, run from $89 a month for Basic to $289 for Plus when billed annually with Lightspeed Payments, with extra locations, registers and hardware adding to the total.",
+          "CaratIQ, Crystal and JewelMate fill out the rest of the field. CaratIQ publishes its tiers, from $300 a month for three users and up to 20,000 items to $800 for seven users and up to 100,000 items. Crystal is cloud based with a mobile app and links to Shopify, BigCommerce, WooCommerce and QuickBooks Online, and quotes on request. JewelMate has served the trade since 1989 and covers finished pieces, raw materials and loose stones, with a one-time starting price of $3,500 listed on Capterra.",
+        ],
+      },
+      {
+        heading: "Costs, trials and switching",
+        paragraphs: [
+          "Most jewellery systems are quoted rather than priced on the page. The Edge and Jewel360 both work that way, and the final figure depends on the number of stores, workstations, users and modules. The published prices that do exist give a rough shape: Lightspeed from $89 a month, CaratIQ from $300 a month, JewelMate from a $3,500 one-time start. Those figures come from a September 2026 comparison, so check the vendor's own page before you budget, because prices move and the starting tier rarely covers everything a jeweller needs.",
+          "The subscription or licence is only part of the cost. There is the hardware, scanners, tag printers and, for an on-premise system, a server. There is the time to load the stock list, which means recording every piece with its stone and certificate details, not just importing product names. There is training, and there is data migration from the old system, which is where most projects run late. Ask each vendor for the full price of the setup you will actually use, including support and payment processing, before you sign anything.",
+          "A trial is worth more than a demonstration, but only if you run it with your own stock. Load a real slice of the range, including two pieces that share a style number, a memo piece and a repair job. Receive a delivery, sell a piece online and in the shop, count one case by hand, and run the age report. If the numbers do not match what you counted, find out why before you commit. Switching later is possible but never free: moving piece records, open repairs and stock values from one system to another takes a full stocktake and a careful import, and the history rarely comes across cleanly.",
+        ],
+      },
+      {
+        heading: "Questions to ask before you buy",
+        paragraphs: [
+          "Start with your own store, not the seller's feature list: how many pieces you hold, how many move on a busy week, how many locations are involved, and how much of the range is memo or consignment. Then ask whether every piece gets its own serialized record with stone, certificate, vendor, cost and location, and whether memo and consignment stock stay on separate books with their own reports. Ask how repairs, custom work and appraisals are tracked, and whether a customer can be told a job is ready without a phone call to the bench.",
+          "Ask how the system counts stock, whether it supports RFID as well as barcodes, and how long a full count of your cases takes in practice. Ask whether the online store draws from the same stock record as the shop floor, so a piece sold online disappears from the counter at once. Ask how your data comes out if you leave, what happens at the till if the internet drops, and who owns the server and the backups if the system runs on your own machines. For a closer look at the barcode side of the same job, our guide to barcode stock management software covers scanners, labels and the counting routine in more detail.",
+        ],
+        subsections: [
+          {
+            heading: "A short checklist before you buy",
+            paragraphs: [
+              "Confirm serialized records with stone, certificate, vendor, cost and location. Confirm memo and consignment stay separate from owned stock. Confirm repairs, custom work, appraisals, layaway and trade-ins are tracked in the same system. Confirm RFID or barcode counting and an age and margin report. Confirm the online store shares one stock record with the shop. Confirm the full cost, including hardware, migration, training and support, and confirm how your data leaves the system if you move on.",
+            ],
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "What is jewellery stock management software?",
+        a: "It is software that tracks every piece a jewellery store holds, from delivery to sale. Each piece gets its own serialized record with its metal, stone, certificate, vendor, cost and location, and the system also handles repairs, custom work, appraisals, memo and consignment stock, and the reports that show what is selling and what has sat too long.",
+      },
+      {
+        q: "Why can't a general retail system handle jewellery stock?",
+        a: "A general system counts quantities per product, so twelve rings with one style number look like twelve identical items. In a jewellery store those twelve rings can hold different stones, certificates and costs. A jewellery system tracks each piece on its own record, and it also handles memo, consignment, repairs and appraisals, which general retail software does not cover.",
+      },
+      {
+        q: "What is serialized inventory tracking?",
+        a: "It means every individual piece gets its own record instead of tracking quantities per style number. The record carries the serial number, certificate number, carat weight, colour, clarity, metal type and weight, cost, retail price, location and vendor, so staff can find the exact piece a customer asks about and the owner knows what each piece is worth.",
+      },
+      {
+        q: "What is memo stock in a jewellery store?",
+        a: "Memo stock is goods held on approval, either by a customer who is deciding or by a sales agent showing pieces elsewhere. The store does not own it, so it must be tracked apart from owned stock, with a due date for its return. A good system keeps memo, consignment and owned stock on separate books and reports each one on its own.",
+      },
+      {
+        q: "How much does jewellery stock management software cost?",
+        a: "Most vendors quote rather than list prices. Published starting points from a September 2026 comparison include Lightspeed from $89 a month and CaratIQ from $300 a month, while JewelMate lists a one-time starting price of $3,500 on Capterra. The full cost includes hardware, data migration, training and support, so ask for a quote on the setup you will actually use and confirm the current price with the vendor.",
+      },
+    ],
+    sources: [
+      { label: "Lightspeed: Jewelry Store POS System and Software", url: "https://www.lightspeedhq.com/pc/retail/jewelry-store-pos-system/" },
+      { label: "The Edge: Total Jewelry Retail Management Solution", url: "https://www.theedgeforjewelers.com/" },
+      { label: "Jewel360: Best Jewelry Inventory Management Software, 6 Top Providers", url: "https://jewel360.com/blog/6-top-jewelry-inventory-management-software-providers?hs_amp=true" },
+      { label: "Lightspeed: 4 Ways to Manage Your Jewelry Shop's Inventory", url: "https://www.lightspeedhq.com/blog/jewelry-shop-inventory-management/" },
+    ],
+    status: "published",
   }
 ];
 
